@@ -1,0 +1,133 @@
+🎮 게임 PRD 문서: Pixel Brawl (가제)
+1. 개요
+게임명: Pixel Brawl (가제)
+
+장르: 2D 픽셀 아트 액션 전투 게임
+
+플랫폼: Web (HTML5, 데스크탑 브라우저)
+
+엔진: Unity 6 (최신 버전)
+
+사용 기술: Unity Visual Scripting (VF), URP, WebGL
+
+그래픽: 저해상도 픽셀 아트
+
+타깃 유저: 캐주얼 게이머, 10~30대
+
+2. 게임 핵심 요소
+2.1 플레이어
+조작 방식: 키보드 방향키 또는 WASD + Space/Action 키
+
+능력치: 체력, 스태미나
+
+행동
+
+이동 (좌/우)
+
+점프
+
+기본 공격 (근거리)
+
+스킬 사용 (쿨다운 포함)
+
+피격 반응 및 넉백
+
+2.2 적
+타입: 근접형 적, 원거리형 적
+
+AI 패턴: 순찰 → 추적 → 공격
+
+행동 패턴
+
+플레이어 인식 범위 내 접근
+
+피격 시 넉백 또는 딜레이
+
+죽음 시 애니메이션 및 제거
+
+2.3 전투 시스템
+구현 방식: Unity Visual Scripting (VF)
+
+기능 요소
+
+콤보 시스템
+
+히트 판정 (BoxCollider2D, Raycast 사용)
+
+쿨다운/스킬 발동
+
+넉백 물리 처리
+
+데미지 UI 표시
+
+3. 그래픽 및 UI
+3.1 아트 스타일
+픽셀 크기 기준: 16x16 타일셋
+
+캐릭터 사이즈: 32x32 기준
+
+해상도: 320x180 (16:9), 스케일업 렌더링
+
+팔레트: 8~12컬러 제한 팔레트 사용
+
+3.2 UI 구성
+체력 바 (플레이어, 적)
+
+스킬 쿨다운 표시
+
+적 처치 수, 시간 표시
+
+간단한 인벤토리 및 아이템 획득 알림
+
+4. 기술 사양
+4.1 유니티 설정
+Unity 6 + URP 템플릿 사용
+
+Visual Scripting (노드 기반 전투 시스템 구현)
+
+Addressables 또는 Resources 폴더 통한 에셋 관리
+
+Animator 또는 Timeline 기반 애니메이션
+
+4.2 HTML/WebGL 배포
+WebGL 빌드 사용
+
+UI/텍스처 최적화 (Low-resolution 압축)
+
+로딩 최소화 (Splash 제거, Static Asset Preload)
+
+모바일 브라우저는 미지원 예정
+
+5. 시스템 구조 예시
+plaintext
+복사
+편집
+📁 Assets
+│
+├── Characters
+│   ├── Player
+│   └── Enemies
+│
+├── Scripts
+│   ├── VFGraphs
+│   └── Systems (Combat, AI, Movement)
+│
+├── UI
+│   ├── HUD
+│   └── Menus
+│
+├── Art
+│   ├── Tilesets
+│   └── FX
+│
+└── Scenes
+    ├── MainScene.unity
+    └── TestArena.unity
+6. 향후 확장 계획
+멀티 캐릭터 선택 기능
+
+다양한 적 유형 및 보스 전투
+
+간단한 스토리 모드 or 웨이브 모드
+
+점수 기반 랭킹 시스템

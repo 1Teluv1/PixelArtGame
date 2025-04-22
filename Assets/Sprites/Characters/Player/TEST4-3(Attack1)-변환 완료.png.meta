@@ -1,0 +1,3318 @@
+fileFormatVersion: 2
+guid: fc3cfaf120557334f8f4a488022b93ab
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 1463069648449384356
+    second: "TEST4-3(Attack1)-\uBCC0\uD658 \uC644\uB8CC_0"
+  - first:
+      213: 6293597380970752620
+    second: "TEST4-3(Attack1)-\uBCC0\uD658 \uC644\uB8CC_1"
+  - first:
+      213: -1823872789016640853
+    second: "TEST4-3(Attack1)-\uBCC0\uD658 \uC644\uB8CC_2"
+  - first:
+      213: 7182077414492744577
+    second: "TEST4-3(Attack1)-\uBCC0\uD658 \uC644\uB8CC_3"
+  - first:
+      213: 218633082026390075
+    second: "TEST4-3(Attack1)-\uBCC0\uD658 \uC644\uB8CC_4"
+  - first:
+      213: -8673443158784321292
+    second: "TEST4-3(Attack1)-\uBCC0\uD658 \uC644\uB8CC_5"
+  - first:
+      213: -4097087861768092437
+    second: "TEST4-3(Attack1)-\uBCC0\uD658 \uC644\uB8CC_6"
+  - first:
+      213: -2795208790533463660
+    second: "TEST4-3(Attack1)-\uBCC0\uD658 \uC644\uB8CC_7"
+  - first:
+      213: 3358516639512909848
+    second: "TEST4-3(Attack1)-\uBCC0\uD658 \uC644\uB8CC_8"
+  - first:
+      213: 8465495584837223535
+    second: "TEST4-3(Attack1)-\uBCC0\uD658 \uC644\uB8CC_9"
+  - first:
+      213: -6709259724699745496
+    second: "TEST4-3(Attack1)-\uBCC0\uD658 \uC644\uB8CC_10"
+  - first:
+      213: 7227522356648163381
+    second: "TEST4-3(Attack1)-\uBCC0\uD658 \uC644\uB8CC_11"
+  - first:
+      213: -141763143377685230
+    second: "TEST4-3(Attack1)-\uBCC0\uD658 \uC644\uB8CC_12"
+  - first:
+      213: -7017071656607315976
+    second: "TEST4-3(Attack1)-\uBCC0\uD658 \uC644\uB8CC_13"
+  - first:
+      213: -3936399726045451407
+    second: "TEST4-3(Attack1)-\uBCC0\uD658 \uC644\uB8CC_14"
+  - first:
+      213: -5069656686366319072
+    second: "TEST4-3(Attack1)-\uBCC0\uD658 \uC644\uB8CC_15"
+  - first:
+      213: 4030911579426205026
+    second: "TEST4-3(Attack1)-\uBCC0\uD658 \uC644\uB8CC_16"
+  - first:
+      213: 5238746856508041925
+    second: "TEST4-3(Attack1)-\uBCC0\uD658 \uC644\uB8CC_17"
+  - first:
+      213: -8992761887836316213
+    second: "TEST4-3(Attack1)-\uBCC0\uD658 \uC644\uB8CC_18"
+  - first:
+      213: -1802039775012553714
+    second: "TEST4-3(Attack1)-\uBCC0\uD658 \uC644\uB8CC_19"
+  - first:
+      213: -685008570573977231
+    second: "TEST4-3(Attack1)-\uBCC0\uD658 \uC644\uB8CC_20"
+  - first:
+      213: -6041808181620322734
+    second: "TEST4-3(Attack1)-\uBCC0\uD658 \uC644\uB8CC_21"
+  - first:
+      213: -2427147583205030078
+    second: "TEST4-3(Attack1)-\uBCC0\uD658 \uC644\uB8CC_22"
+  - first:
+      213: 300027740703090482
+    second: "TEST4-3(Attack1)-\uBCC0\uD658 \uC644\uB8CC_23"
+  - first:
+      213: 2137198049106891784
+    second: "TEST4-3(Attack1)-\uBCC0\uD658 \uC644\uB8CC_24"
+  - first:
+      213: 7796803706000432266
+    second: "TEST4-3(Attack1)-\uBCC0\uD658 \uC644\uB8CC_25"
+  - first:
+      213: -3741858630312456992
+    second: "TEST4-3(Attack1)-\uBCC0\uD658 \uC644\uB8CC_26"
+  - first:
+      213: 414562858533990255
+    second: "TEST4-3(Attack1)-\uBCC0\uD658 \uC644\uB8CC_27"
+  - first:
+      213: -6751275233257792313
+    second: "TEST4-3(Attack1)-\uBCC0\uD658 \uC644\uB8CC_28"
+  - first:
+      213: -9168770093596969726
+    second: "TEST4-3(Attack1)-\uBCC0\uD658 \uC644\uB8CC_29"
+  - first:
+      213: -9034263746809262676
+    second: "TEST4-3(Attack1)-\uBCC0\uD658 \uC644\uB8CC_30"
+  - first:
+      213: 4124898470074117966
+    second: "TEST4-3(Attack1)-\uBCC0\uD658 \uC644\uB8CC_31"
+  - first:
+      213: -5513717291318364494
+    second: "TEST4-3(Attack1)-\uBCC0\uD658 \uC644\uB8CC_32"
+  - first:
+      213: -7848543836970555249
+    second: "TEST4-3(Attack1)-\uBCC0\uD658 \uC644\uB8CC_33"
+  - first:
+      213: -5611602052032360251
+    second: "TEST4-3(Attack1)-\uBCC0\uD658 \uC644\uB8CC_34"
+  - first:
+      213: -6732896743171663480
+    second: "TEST4-3(Attack1)-\uBCC0\uD658 \uC644\uB8CC_35"
+  - first:
+      213: -6672973565608902381
+    second: "TEST4-3(Attack1)-\uBCC0\uD658 \uC644\uB8CC_36"
+  - first:
+      213: -7005603827872179088
+    second: "TEST4-3(Attack1)-\uBCC0\uD658 \uC644\uB8CC_37"
+  - first:
+      213: -7097184410964644975
+    second: "TEST4-3(Attack1)-\uBCC0\uD658 \uC644\uB8CC_38"
+  - first:
+      213: 1003105177191352815
+    second: "TEST4-3(Attack1)-\uBCC0\uD658 \uC644\uB8CC_39"
+  - first:
+      213: -2813587982022360528
+    second: "TEST4-3(Attack1)-\uBCC0\uD658 \uC644\uB8CC_40"
+  - first:
+      213: -1320760853739640223
+    second: "TEST4-3(Attack1)-\uBCC0\uD658 \uC644\uB8CC_41"
+  - first:
+      213: 23587319689605824
+    second: "TEST4-3(Attack1)-\uBCC0\uD658 \uC644\uB8CC_42"
+  - first:
+      213: -8824425434002558927
+    second: "TEST4-3(Attack1)-\uBCC0\uD658 \uC644\uB8CC_43"
+  - first:
+      213: 7425403584734918659
+    second: "TEST4-3(Attack1)-\uBCC0\uD658 \uC644\uB8CC_44"
+  - first:
+      213: 4081736823199176678
+    second: "TEST4-3(Attack1)-\uBCC0\uD658 \uC644\uB8CC_45"
+  - first:
+      213: -7114718163080622965
+    second: "TEST4-3(Attack1)-\uBCC0\uD658 \uC644\uB8CC_46"
+  - first:
+      213: 6758284612109315410
+    second: "TEST4-3(Attack1)-\uBCC0\uD658 \uC644\uB8CC_47"
+  - first:
+      213: 1204969612379748382
+    second: "TEST4-3(Attack1)-\uBCC0\uD658 \uC644\uB8CC_48"
+  - first:
+      213: -7668978098851242188
+    second: "TEST4-3(Attack1)-\uBCC0\uD658 \uC644\uB8CC_49"
+  - first:
+      213: -5986201477834010117
+    second: "TEST4-3(Attack1)-\uBCC0\uD658 \uC644\uB8CC_50"
+  - first:
+      213: 6459702634356343645
+    second: "TEST4-3(Attack1)-\uBCC0\uD658 \uC644\uB8CC_51"
+  - first:
+      213: -1286156142305025003
+    second: "TEST4-3(Attack1)-\uBCC0\uD658 \uC644\uB8CC_52"
+  - first:
+      213: 6156960982339833011
+    second: "TEST4-3(Attack1)-\uBCC0\uD658 \uC644\uB8CC_53"
+  - first:
+      213: -3182022871547177223
+    second: "TEST4-3(Attack1)-\uBCC0\uD658 \uC644\uB8CC_54"
+  - first:
+      213: 7123944149340097547
+    second: "TEST4-3(Attack1)-\uBCC0\uD658 \uC644\uB8CC_55"
+  - first:
+      213: -2900040867419780911
+    second: "TEST4-3(Attack1)-\uBCC0\uD658 \uC644\uB8CC_56"
+  - first:
+      213: -7349667033099734486
+    second: "TEST4-3(Attack1)-\uBCC0\uD658 \uC644\uB8CC_57"
+  - first:
+      213: -5632786297945160350
+    second: "TEST4-3(Attack1)-\uBCC0\uD658 \uC644\uB8CC_58"
+  - first:
+      213: -4408977199421118465
+    second: "TEST4-3(Attack1)-\uBCC0\uD658 \uC644\uB8CC_59"
+  - first:
+      213: -1231127872990942179
+    second: "TEST4-3(Attack1)-\uBCC0\uD658 \uC644\uB8CC_60"
+  - first:
+      213: -1232439937240040234
+    second: "TEST4-3(Attack1)-\uBCC0\uD658 \uC644\uB8CC_61"
+  - first:
+      213: -2376004874012507849
+    second: "TEST4-3(Attack1)-\uBCC0\uD658 \uC644\uB8CC_62"
+  - first:
+      213: -5323638253107741321
+    second: "TEST4-3(Attack1)-\uBCC0\uD658 \uC644\uB8CC_63"
+  - first:
+      213: -2230675073958939279
+    second: "TEST4-3(Attack1)-\uBCC0\uD658 \uC644\uB8CC_64"
+  - first:
+      213: 7704361751395116188
+    second: "TEST4-3(Attack1)-\uBCC0\uD658 \uC644\uB8CC_65"
+  - first:
+      213: 6414788384152490989
+    second: "TEST4-3(Attack1)-\uBCC0\uD658 \uC644\uB8CC_66"
+  - first:
+      213: 3329394242664955717
+    second: "TEST4-3(Attack1)-\uBCC0\uD658 \uC644\uB8CC_67"
+  - first:
+      213: 6245658814206402193
+    second: "TEST4-3(Attack1)-\uBCC0\uD658 \uC644\uB8CC_68"
+  - first:
+      213: 2503742512157138766
+    second: "TEST4-3(Attack1)-\uBCC0\uD658 \uC644\uB8CC_69"
+  - first:
+      213: -1665241995267469081
+    second: "TEST4-3(Attack1)-\uBCC0\uD658 \uC644\uB8CC_70"
+  - first:
+      213: 3330815112694499014
+    second: "TEST4-3(Attack1)-\uBCC0\uD658 \uC644\uB8CC_71"
+  - first:
+      213: 6701927034561764992
+    second: "TEST4-3(Attack1)-\uBCC0\uD658 \uC644\uB8CC_72"
+  - first:
+      213: -3558632467501324374
+    second: "TEST4-3(Attack1)-\uBCC0\uD658 \uC644\uB8CC_73"
+  - first:
+      213: -5974646561753297892
+    second: "TEST4-3(Attack1)-\uBCC0\uD658 \uC644\uB8CC_74"
+  - first:
+      213: -5575194454960226016
+    second: "TEST4-3(Attack1)-\uBCC0\uD658 \uC644\uB8CC_75"
+  - first:
+      213: 4005023895644003814
+    second: "TEST4-3(Attack1)-\uBCC0\uD658 \uC644\uB8CC_76"
+  - first:
+      213: 8187962680816116313
+    second: "TEST4-3(Attack1)-\uBCC0\uD658 \uC644\uB8CC_77"
+  - first:
+      213: 2270664586808206386
+    second: "TEST4-3(Attack1)-\uBCC0\uD658 \uC644\uB8CC_78"
+  - first:
+      213: 4014902266193144517
+    second: "TEST4-3(Attack1)-\uBCC0\uD658 \uC644\uB8CC_79"
+  - first:
+      213: -5796002357835694520
+    second: "TEST4-3(Attack1)-\uBCC0\uD658 \uC644\uB8CC_80"
+  - first:
+      213: 1380689485695279148
+    second: "TEST4-3(Attack1)-\uBCC0\uD658 \uC644\uB8CC_81"
+  - first:
+      213: 4917037867509436481
+    second: "TEST4-3(Attack1)-\uBCC0\uD658 \uC644\uB8CC_82"
+  - first:
+      213: -5915213314777024995
+    second: "TEST4-3(Attack1)-\uBCC0\uD658 \uC644\uB8CC_83"
+  - first:
+      213: 8960882876989113942
+    second: "TEST4-3(Attack1)-\uBCC0\uD658 \uC644\uB8CC_84"
+  - first:
+      213: 7748826897691211900
+    second: "TEST4-3(Attack1)-\uBCC0\uD658 \uC644\uB8CC_85"
+  - first:
+      213: -3675146301919440992
+    second: "TEST4-3(Attack1)-\uBCC0\uD658 \uC644\uB8CC_86"
+  - first:
+      213: -6116298234178076535
+    second: "TEST4-3(Attack1)-\uBCC0\uD658 \uC644\uB8CC_87"
+  - first:
+      213: 4773343307639657888
+    second: "TEST4-3(Attack1)-\uBCC0\uD658 \uC644\uB8CC_88"
+  - first:
+      213: 3394114514125018943
+    second: "TEST4-3(Attack1)-\uBCC0\uD658 \uC644\uB8CC_89"
+  - first:
+      213: 6633548326802374025
+    second: "TEST4-3(Attack1)-\uBCC0\uD658 \uC644\uB8CC_90"
+  - first:
+      213: -917743731579069836
+    second: "TEST4-3(Attack1)-\uBCC0\uD658 \uC644\uB8CC_91"
+  - first:
+      213: 675582464848275177
+    second: "TEST4-3(Attack1)-\uBCC0\uD658 \uC644\uB8CC_92"
+  - first:
+      213: -156968964918928467
+    second: "TEST4-3(Attack1)-\uBCC0\uD658 \uC644\uB8CC_93"
+  - first:
+      213: 1270681292558627825
+    second: "TEST4-3(Attack1)-\uBCC0\uD658 \uC644\uB8CC_94"
+  - first:
+      213: 6365326785870536969
+    second: "TEST4-3(Attack1)-\uBCC0\uD658 \uC644\uB8CC_95"
+  - first:
+      213: 4048728108519697657
+    second: "TEST4-3(Attack1)-\uBCC0\uD658 \uC644\uB8CC_96"
+  - first:
+      213: -3247922200391607040
+    second: "TEST4-3(Attack1)-\uBCC0\uD658 \uC644\uB8CC_97"
+  - first:
+      213: 2233251832041749845
+    second: "TEST4-3(Attack1)-\uBCC0\uD658 \uC644\uB8CC_98"
+  - first:
+      213: 3894578954716704263
+    second: "TEST4-3(Attack1)-\uBCC0\uD658 \uC644\uB8CC_99"
+  - first:
+      213: -795975120690604664
+    second: "TEST4-3(Attack1)-\uBCC0\uD658 \uC644\uB8CC_100"
+  - first:
+      213: 7409544082307480174
+    second: "TEST4-3(Attack1)-\uBCC0\uD658 \uC644\uB8CC_101"
+  - first:
+      213: 7132023755439676352
+    second: "TEST4-3(Attack1)-\uBCC0\uD658 \uC644\uB8CC_102"
+  - first:
+      213: 2783600044597496005
+    second: "TEST4-3(Attack1)-\uBCC0\uD658 \uC644\uB8CC_103"
+  - first:
+      213: 1150254425142504024
+    second: "TEST4-3(Attack1)-\uBCC0\uD658 \uC644\uB8CC_104"
+  - first:
+      213: -1681110238390474819
+    second: "TEST4-3(Attack1)-\uBCC0\uD658 \uC644\uB8CC_105"
+  - first:
+      213: 4730299593867214881
+    second: "TEST4-3(Attack1)-\uBCC0\uD658 \uC644\uB8CC_106"
+  - first:
+      213: 7745239344627476040
+    second: "TEST4-3(Attack1)-\uBCC0\uD658 \uC644\uB8CC_107"
+  - first:
+      213: 4038415483313024709
+    second: "TEST4-3(Attack1)-\uBCC0\uD658 \uC644\uB8CC_108"
+  - first:
+      213: 8298410329030550774
+    second: "TEST4-3(Attack1)-\uBCC0\uD658 \uC644\uB8CC_109"
+  - first:
+      213: 188847212159065321
+    second: "TEST4-3(Attack1)-\uBCC0\uD658 \uC644\uB8CC_110"
+  - first:
+      213: 6933290747131443472
+    second: "TEST4-3(Attack1)-\uBCC0\uD658 \uC644\uB8CC_111"
+  - first:
+      213: -4438115353371962222
+    second: "TEST4-3(Attack1)-\uBCC0\uD658 \uC644\uB8CC_112"
+  - first:
+      213: 5064528399471823087
+    second: "TEST4-3(Attack1)-\uBCC0\uD658 \uC644\uB8CC_113"
+  - first:
+      213: -7412305503049791506
+    second: "TEST4-3(Attack1)-\uBCC0\uD658 \uC644\uB8CC_114"
+  - first:
+      213: -3404700183693556763
+    second: "TEST4-3(Attack1)-\uBCC0\uD658 \uC644\uB8CC_115"
+  - first:
+      213: 2526714548793863126
+    second: "TEST4-3(Attack1)-\uBCC0\uD658 \uC644\uB8CC_116"
+  - first:
+      213: -751172620612492709
+    second: "TEST4-3(Attack1)-\uBCC0\uD658 \uC644\uB8CC_117"
+  - first:
+      213: -5311097236293591279
+    second: "TEST4-3(Attack1)-\uBCC0\uD658 \uC644\uB8CC_118"
+  - first:
+      213: -3669816049668030198
+    second: "TEST4-3(Attack1)-\uBCC0\uD658 \uC644\uB8CC_119"
+  - first:
+      213: -2746065581623241142
+    second: "TEST4-3(Attack1)-\uBCC0\uD658 \uC644\uB8CC_120"
+  - first:
+      213: 4938351943533482592
+    second: "TEST4-3(Attack1)-\uBCC0\uD658 \uC644\uB8CC_121"
+  - first:
+      213: 7670765573494498731
+    second: "TEST4-3(Attack1)-\uBCC0\uD658 \uC644\uB8CC_122"
+  - first:
+      213: -8919880333967459470
+    second: "TEST4-3(Attack1)-\uBCC0\uD658 \uC644\uB8CC_123"
+  - first:
+      213: 4125212475500995246
+    second: "TEST4-3(Attack1)-\uBCC0\uD658 \uC644\uB8CC_124"
+  - first:
+      213: 7901451479104015241
+    second: "TEST4-3(Attack1)-\uBCC0\uD658 \uC644\uB8CC_125"
+  - first:
+      213: -3643683288903627841
+    second: "TEST4-3(Attack1)-\uBCC0\uD658 \uC644\uB8CC_126"
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: iOS
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: "TEST4-3(Attack1)-\uBCC0\uD658 \uC644\uB8CC_0"
+      rect:
+        serializedVersion: 2
+        x: 103
+        y: 1182
+        width: 204
+        height: 306
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4af2b75f71edd4410800000000000000
+      internalID: 1463069648449384356
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "TEST4-3(Attack1)-\uBCC0\uD658 \uC644\uB8CC_1"
+      rect:
+        serializedVersion: 2
+        x: 335
+        y: 1296
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c6a271c1979575750800000000000000
+      internalID: 6293597380970752620
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "TEST4-3(Attack1)-\uBCC0\uD658 \uC644\uB8CC_2"
+      rect:
+        serializedVersion: 2
+        x: 474
+        y: 1183
+        width: 214
+        height: 305
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ba289279c5d40b6e0800000000000000
+      internalID: -1823872789016640853
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "TEST4-3(Attack1)-\uBCC0\uD658 \uC644\uB8CC_3"
+      rect:
+        serializedVersion: 2
+        x: 854
+        y: 1182
+        width: 210
+        height: 306
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 18b22303b5ddba360800000000000000
+      internalID: 7182077414492744577
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "TEST4-3(Attack1)-\uBCC0\uD658 \uC644\uB8CC_4"
+      rect:
+        serializedVersion: 2
+        x: 1230
+        y: 1182
+        width: 203
+        height: 306
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b32f45631adb80300800000000000000
+      internalID: 218633082026390075
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "TEST4-3(Attack1)-\uBCC0\uD658 \uC644\uB8CC_5"
+      rect:
+        serializedVersion: 2
+        x: 215
+        y: 1103
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4f85e15a66db1a780800000000000000
+      internalID: -8673443158784321292
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "TEST4-3(Attack1)-\uBCC0\uD658 \uC644\uB8CC_6"
+      rect:
+        serializedVersion: 2
+        x: 815
+        y: 967
+        width: 162
+        height: 154
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: be48fb90c483427c0800000000000000
+      internalID: -4097087861768092437
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "TEST4-3(Attack1)-\uBCC0\uD658 \uC644\uB8CC_7"
+      rect:
+        serializedVersion: 2
+        x: 975
+        y: 1095
+        width: 34
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 49124372a6c6539d0800000000000000
+      internalID: -2795208790533463660
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "TEST4-3(Attack1)-\uBCC0\uD658 \uC644\uB8CC_8"
+      rect:
+        serializedVersion: 2
+        x: 1031
+        y: 1103
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 818d766e619db9e20800000000000000
+      internalID: 3358516639512909848
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "TEST4-3(Attack1)-\uBCC0\uD658 \uC644\uB8CC_9"
+      rect:
+        serializedVersion: 2
+        x: 1182
+        y: 798
+        width: 307
+        height: 332
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f644cddd16b7b7570800000000000000
+      internalID: 8465495584837223535
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "TEST4-3(Attack1)-\uBCC0\uD658 \uC644\uB8CC_10"
+      rect:
+        serializedVersion: 2
+        x: 87
+        y: 799
+        width: 203
+        height: 298
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 823cf6bd3dbe3e2a0800000000000000
+      internalID: -6709259724699745496
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "TEST4-3(Attack1)-\uBCC0\uD658 \uC644\uB8CC_11"
+      rect:
+        serializedVersion: 2
+        x: 463
+        y: 798
+        width: 207
+        height: 304
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 53835325a415d4460800000000000000
+      internalID: 7227522356648163381
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "TEST4-3(Attack1)-\uBCC0\uD658 \uC644\uB8CC_12"
+      rect:
+        serializedVersion: 2
+        x: 671
+        y: 1015
+        width: 10
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 215fab41c2b580ef0800000000000000
+      internalID: -141763143377685230
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "TEST4-3(Attack1)-\uBCC0\uD658 \uC644\uB8CC_13"
+      rect:
+        serializedVersion: 2
+        x: 831
+        y: 798
+        width: 267
+        height: 299
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8f78570a18a5e9e90800000000000000
+      internalID: -7017071656607315976
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "TEST4-3(Attack1)-\uBCC0\uD658 \uC644\uB8CC_14"
+      rect:
+        serializedVersion: 2
+        x: 1095
+        y: 1006
+        width: 10
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 17bad1b1e491f59c0800000000000000
+      internalID: -3936399726045451407
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "TEST4-3(Attack1)-\uBCC0\uD658 \uC644\uB8CC_15"
+      rect:
+        serializedVersion: 2
+        x: 1103
+        y: 1015
+        width: 11
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 02e93fb9a16f4a9b0800000000000000
+      internalID: -5069656686366319072
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "TEST4-3(Attack1)-\uBCC0\uD658 \uC644\uB8CC_16"
+      rect:
+        serializedVersion: 2
+        x: 1167
+        y: 1007
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 26d25bc89bca0f730800000000000000
+      internalID: 4030911579426205026
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "TEST4-3(Attack1)-\uBCC0\uD658 \uC644\uB8CC_17"
+      rect:
+        serializedVersion: 2
+        x: 455
+        y: 999
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5ca2b5a8284c3b840800000000000000
+      internalID: 5238746856508041925
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "TEST4-3(Attack1)-\uBCC0\uD658 \uC644\uB8CC_18"
+      rect:
+        serializedVersion: 2
+        x: 311
+        y: 967
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bcd58dd65ba433380800000000000000
+      internalID: -8992761887836316213
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "TEST4-3(Attack1)-\uBCC0\uD658 \uC644\uB8CC_19"
+      rect:
+        serializedVersion: 2
+        x: 447
+        y: 959
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e0c704b4f5eddf6e0800000000000000
+      internalID: -1802039775012553714
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "TEST4-3(Attack1)-\uBCC0\uD658 \uC644\uB8CC_20"
+      rect:
+        serializedVersion: 2
+        x: 791
+        y: 918
+        width: 50
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 17907da955c5e76f0800000000000000
+      internalID: -685008570573977231
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "TEST4-3(Attack1)-\uBCC0\uD658 \uC644\uB8CC_21"
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 927
+        width: 10
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 25ec87d387f272ca0800000000000000
+      internalID: -6041808181620322734
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "TEST4-3(Attack1)-\uBCC0\uD658 \uC644\uB8CC_22"
+      rect:
+        serializedVersion: 2
+        x: 1167
+        y: 935
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 247cd95f12a015ed0800000000000000
+      internalID: -2427147583205030078
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "TEST4-3(Attack1)-\uBCC0\uD658 \uC644\uB8CC_23"
+      rect:
+        serializedVersion: 2
+        x: 455
+        y: 895
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 237ee5bf3a9e92400800000000000000
+      internalID: 300027740703090482
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "TEST4-3(Attack1)-\uBCC0\uD658 \uC644\uB8CC_24"
+      rect:
+        serializedVersion: 2
+        x: 816
+        y: 879
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8049ca36d4ad8ad10800000000000000
+      internalID: 2137198049106891784
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "TEST4-3(Attack1)-\uBCC0\uD658 \uC644\uB8CC_25"
+      rect:
+        serializedVersion: 2
+        x: 1095
+        y: 791
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a8cda9f49afc33c60800000000000000
+      internalID: 7796803706000432266
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "TEST4-3(Attack1)-\uBCC0\uD658 \uC644\uB8CC_26"
+      rect:
+        serializedVersion: 2
+        x: 88
+        y: 687
+        width: 121
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0ec0f74a66f321cc0800000000000000
+      internalID: -3741858630312456992
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "TEST4-3(Attack1)-\uBCC0\uD658 \uC644\uB8CC_27"
+      rect:
+        serializedVersion: 2
+        x: 415
+        y: 408
+        width: 314
+        height: 337
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f6f2dff29b2d0c500800000000000000
+      internalID: 414562858533990255
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "TEST4-3(Attack1)-\uBCC0\uD658 \uC644\uB8CC_28"
+      rect:
+        serializedVersion: 2
+        x: 775
+        y: 735
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7ccd6c4f1f6ae42a0800000000000000
+      internalID: -6751275233257792313
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "TEST4-3(Attack1)-\uBCC0\uD658 \uC644\uB8CC_29"
+      rect:
+        serializedVersion: 2
+        x: 871
+        y: 735
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2057de79d2cf1c080800000000000000
+      internalID: -9168770093596969726
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "TEST4-3(Attack1)-\uBCC0\uD658 \uC644\uB8CC_30"
+      rect:
+        serializedVersion: 2
+        x: 875
+        y: 687
+        width: 142
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cad8e34ecf8df9280800000000000000
+      internalID: -9034263746809262676
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "TEST4-3(Attack1)-\uBCC0\uD658 \uC644\uB8CC_31"
+      rect:
+        serializedVersion: 2
+        x: 895
+        y: 735
+        width: 11
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e4fe15bcd459e3930800000000000000
+      internalID: 4124898470074117966
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "TEST4-3(Attack1)-\uBCC0\uD658 \uC644\uB8CC_32"
+      rect:
+        serializedVersion: 2
+        x: 991
+        y: 735
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2b63a0326575b73b0800000000000000
+      internalID: -5513717291318364494
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "TEST4-3(Attack1)-\uBCC0\uD658 \uC644\uB8CC_33"
+      rect:
+        serializedVersion: 2
+        x: 1215
+        y: 408
+        width: 219
+        height: 337
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f88e941b6fe541390800000000000000
+      internalID: -7848543836970555249
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "TEST4-3(Attack1)-\uBCC0\uD658 \uC644\uB8CC_34"
+      rect:
+        serializedVersion: 2
+        x: 1359
+        y: 743
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5c012cb4aa59f12b0800000000000000
+      internalID: -5611602052032360251
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "TEST4-3(Attack1)-\uBCC0\uD658 \uC644\uB8CC_35"
+      rect:
+        serializedVersion: 2
+        x: 183
+        y: 600
+        width: 154
+        height: 129
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8895ed1a512ff82a0800000000000000
+      internalID: -6732896743171663480
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "TEST4-3(Attack1)-\uBCC0\uD658 \uC644\uB8CC_36"
+      rect:
+        serializedVersion: 2
+        x: 1016
+        y: 727
+        width: 9
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3114f42a5e5d463a0800000000000000
+      internalID: -6672973565608902381
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "TEST4-3(Attack1)-\uBCC0\uD658 \uC644\uB8CC_37"
+      rect:
+        serializedVersion: 2
+        x: 823
+        y: 703
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 07cdf829f6817ce90800000000000000
+      internalID: -7005603827872179088
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "TEST4-3(Attack1)-\uBCC0\uD658 \uC644\uB8CC_38"
+      rect:
+        serializedVersion: 2
+        x: 1015
+        y: 695
+        width: 34
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 19b2307716cb18d90800000000000000
+      internalID: -7097184410964644975
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "TEST4-3(Attack1)-\uBCC0\uD658 \uC644\uB8CC_39"
+      rect:
+        serializedVersion: 2
+        x: 1047
+        y: 711
+        width: 11
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fe988de08debbed00800000000000000
+      internalID: 1003105177191352815
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "TEST4-3(Attack1)-\uBCC0\uD658 \uC644\uB8CC_40"
+      rect:
+        serializedVersion: 2
+        x: 1207
+        y: 703
+        width: 10
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 032cf3b23a024f8d0800000000000000
+      internalID: -2813587982022360528
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "TEST4-3(Attack1)-\uBCC0\uD658 \uC644\uB8CC_41"
+      rect:
+        serializedVersion: 2
+        x: 23
+        y: 495
+        width: 108
+        height: 193
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 16a6b9f4007bbade0800000000000000
+      internalID: -1320760853739640223
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "TEST4-3(Attack1)-\uBCC0\uD658 \uC644\uB8CC_42"
+      rect:
+        serializedVersion: 2
+        x: 79
+        y: 408
+        width: 283
+        height: 282
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0c27d43da8cc35000800000000000000
+      internalID: 23587319689605824
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "TEST4-3(Attack1)-\uBCC0\uD658 \uC644\uB8CC_43"
+      rect:
+        serializedVersion: 2
+        x: 127
+        y: 680
+        width: 58
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 130fa5352d7598580800000000000000
+      internalID: -8824425434002558927
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "TEST4-3(Attack1)-\uBCC0\uD658 \uC644\uB8CC_44"
+      rect:
+        serializedVersion: 2
+        x: 798
+        y: 408
+        width: 315
+        height: 290
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 308790608355c0760800000000000000
+      internalID: 7425403584734918659
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "TEST4-3(Attack1)-\uBCC0\uD658 \uC644\uB8CC_45"
+      rect:
+        serializedVersion: 2
+        x: 983
+        y: 663
+        width: 58
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6e71b65c30e35a830800000000000000
+      internalID: 4081736823199176678
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "TEST4-3(Attack1)-\uBCC0\uD658 \uC644\uB8CC_46"
+      rect:
+        serializedVersion: 2
+        x: 1423
+        y: 671
+        width: 26
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b8c4f8ca681734d90800000000000000
+      internalID: -7114718163080622965
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "TEST4-3(Attack1)-\uBCC0\uD658 \uC644\uB8CC_47"
+      rect:
+        serializedVersion: 2
+        x: 727
+        y: 663
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 25da3cb3c004acd50800000000000000
+      internalID: 6758284612109315410
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "TEST4-3(Attack1)-\uBCC0\uD658 \uC644\uB8CC_48"
+      rect:
+        serializedVersion: 2
+        x: 1407
+        y: 576
+        width: 59
+        height: 98
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e18f80f6a79e8b010800000000000000
+      internalID: 1204969612379748382
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "TEST4-3(Attack1)-\uBCC0\uD658 \uC644\uB8CC_49"
+      rect:
+        serializedVersion: 2
+        x: 399
+        y: 615
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 43f98b31d01529590800000000000000
+      internalID: -7668978098851242188
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "TEST4-3(Attack1)-\uBCC0\uD658 \uC644\uB8CC_50"
+      rect:
+        serializedVersion: 2
+        x: 791
+        y: 623
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bf119cfd87dbceca0800000000000000
+      internalID: -5986201477834010117
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "TEST4-3(Attack1)-\uBCC0\uD658 \uC644\uB8CC_51"
+      rect:
+        serializedVersion: 2
+        x: 1167
+        y: 615
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d53077b225975a950800000000000000
+      internalID: 6459702634356343645
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "TEST4-3(Attack1)-\uBCC0\uD658 \uC644\uB8CC_52"
+      rect:
+        serializedVersion: 2
+        x: 1183
+        y: 527
+        width: 66
+        height: 130
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 514e83c8dc7a62ee0800000000000000
+      internalID: -1286156142305025003
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "TEST4-3(Attack1)-\uBCC0\uD658 \uC644\uB8CC_53"
+      rect:
+        serializedVersion: 2
+        x: 1454
+        y: 574
+        width: 36
+        height: 83
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3bc4e48746be17550800000000000000
+      internalID: 6156960982339833011
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "TEST4-3(Attack1)-\uBCC0\uD658 \uC644\uB8CC_54"
+      rect:
+        serializedVersion: 2
+        x: 743
+        y: 607
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9f61342be0f27d3d0800000000000000
+      internalID: -3182022871547177223
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "TEST4-3(Attack1)-\uBCC0\uD658 \uC644\uB8CC_55"
+      rect:
+        serializedVersion: 2
+        x: 1112
+        y: 607
+        width: 8
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b0c8325a5755dd260800000000000000
+      internalID: 7123944149340097547
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "TEST4-3(Attack1)-\uBCC0\uD658 \uC644\uB8CC_56"
+      rect:
+        serializedVersion: 2
+        x: 1127
+        y: 575
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1d80457323cf0c7d0800000000000000
+      internalID: -2900040867419780911
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "TEST4-3(Attack1)-\uBCC0\uD658 \uC644\uB8CC_57"
+      rect:
+        serializedVersion: 2
+        x: 1502
+        y: 583
+        width: 11
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a22f0ba06ccb00a90800000000000000
+      internalID: -7349667033099734486
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "TEST4-3(Attack1)-\uBCC0\uD658 \uC644\uB8CC_58"
+      rect:
+        serializedVersion: 2
+        x: 399
+        y: 567
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2658a4fa4b254d1b0800000000000000
+      internalID: -5632786297945160350
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "TEST4-3(Attack1)-\uBCC0\uD658 \uC644\uB8CC_59"
+      rect:
+        serializedVersion: 2
+        x: 1414
+        y: 470
+        width: 67
+        height: 108
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ff725bdc89a20d2c0800000000000000
+      internalID: -4408977199421118465
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "TEST4-3(Attack1)-\uBCC0\uD658 \uC644\uB8CC_60"
+      rect:
+        serializedVersion: 2
+        x: 735
+        y: 551
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d1cea49e8b72aeee0800000000000000
+      internalID: -1231127872990942179
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "TEST4-3(Attack1)-\uBCC0\uD658 \uC644\uB8CC_61"
+      rect:
+        serializedVersion: 2
+        x: 359
+        y: 535
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6dc7dc5286e75eee0800000000000000
+      internalID: -1232439937240040234
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "TEST4-3(Attack1)-\uBCC0\uD658 \uC644\uB8CC_62"
+      rect:
+        serializedVersion: 2
+        x: 727
+        y: 527
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 73143ebd72cb60fd0800000000000000
+      internalID: -2376004874012507849
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "TEST4-3(Attack1)-\uBCC0\uD658 \uC644\uB8CC_63"
+      rect:
+        serializedVersion: 2
+        x: 1167
+        y: 535
+        width: 10
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 77df4d2f633ae16b0800000000000000
+      internalID: -5323638253107741321
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "TEST4-3(Attack1)-\uBCC0\uD658 \uC644\uB8CC_64"
+      rect:
+        serializedVersion: 2
+        x: 1495
+        y: 535
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 175fb5fb6dc0b01e0800000000000000
+      internalID: -2230675073958939279
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "TEST4-3(Attack1)-\uBCC0\uD658 \uC644\uB8CC_65"
+      rect:
+        serializedVersion: 2
+        x: 1191
+        y: 495
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c94230581346bea60800000000000000
+      internalID: 7704361751395116188
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "TEST4-3(Attack1)-\uBCC0\uD658 \uC644\uB8CC_66"
+      rect:
+        serializedVersion: 2
+        x: 1207
+        y: 502
+        width: 18
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: de316b26c08e50950800000000000000
+      internalID: 6414788384152490989
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "TEST4-3(Attack1)-\uBCC0\uD658 \uC644\uB8CC_67"
+      rect:
+        serializedVersion: 2
+        x: 1480
+        y: 495
+        width: 9
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 54f764f7c62643e20800000000000000
+      internalID: 3329394242664955717
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "TEST4-3(Attack1)-\uBCC0\uD658 \uC644\uB8CC_68"
+      rect:
+        serializedVersion: 2
+        x: 719
+        y: 415
+        width: 11
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 19e5f01c9990da650800000000000000
+      internalID: 6245658814206402193
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "TEST4-3(Attack1)-\uBCC0\uD658 \uC644\uB8CC_69"
+      rect:
+        serializedVersion: 2
+        x: 791
+        y: 423
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e4f9b26ac841fb220800000000000000
+      internalID: 2503742512157138766
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "TEST4-3(Attack1)-\uBCC0\uD658 \uC644\uB8CC_70"
+      rect:
+        serializedVersion: 2
+        x: 839
+        y: 399
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7e015076a3fd3e8e0800000000000000
+      internalID: -1665241995267469081
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "TEST4-3(Attack1)-\uBCC0\uD658 \uC644\uB8CC_71"
+      rect:
+        serializedVersion: 2
+        x: 31
+        y: 111
+        width: 242
+        height: 250
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6c688a492be693e20800000000000000
+      internalID: 3330815112694499014
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "TEST4-3(Attack1)-\uBCC0\uD658 \uC644\uB8CC_72"
+      rect:
+        serializedVersion: 2
+        x: 407
+        y: 336
+        width: 10
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 08e14ad2127020d50800000000000000
+      internalID: 6701927034561764992
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "TEST4-3(Attack1)-\uBCC0\uD658 \uC644\uB8CC_73"
+      rect:
+        serializedVersion: 2
+        x: 543
+        y: 319
+        width: 89
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aa7696010a23d9ec0800000000000000
+      internalID: -3558632467501324374
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "TEST4-3(Attack1)-\uBCC0\uD658 \uC644\uB8CC_74"
+      rect:
+        serializedVersion: 2
+        x: 623
+        y: 343
+        width: 11
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c1c8f2c6b9ac51da0800000000000000
+      internalID: -5974646561753297892
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "TEST4-3(Attack1)-\uBCC0\uD658 \uC644\uB8CC_75"
+      rect:
+        serializedVersion: 2
+        x: 807
+        y: 24
+        width: 298
+        height: 321
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0214e5e8e2ee0a2b0800000000000000
+      internalID: -5575194454960226016
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "TEST4-3(Attack1)-\uBCC0\uD658 \uC644\uB8CC_76"
+      rect:
+        serializedVersion: 2
+        x: 895
+        y: 343
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6eddfc87304b49730800000000000000
+      internalID: 4005023895644003814
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "TEST4-3(Attack1)-\uBCC0\uD658 \uC644\uB8CC_77"
+      rect:
+        serializedVersion: 2
+        x: 1007
+        y: 343
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 95223303dac71a170800000000000000
+      internalID: 8187962680816116313
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "TEST4-3(Attack1)-\uBCC0\uD658 \uC644\uB8CC_78"
+      rect:
+        serializedVersion: 2
+        x: 1279
+        y: 343
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 23423c44965038f10800000000000000
+      internalID: 2270664586808206386
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "TEST4-3(Attack1)-\uBCC0\uD658 \uC644\uB8CC_79"
+      rect:
+        serializedVersion: 2
+        x: 1287
+        y: 303
+        width: 82
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5ca6a58d65cc7b730800000000000000
+      internalID: 4014902266193144517
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "TEST4-3(Attack1)-\uBCC0\uD658 \uC644\uB8CC_80"
+      rect:
+        serializedVersion: 2
+        x: 1367
+        y: 343
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 84e70e76096709fa0800000000000000
+      internalID: -5796002357835694520
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "TEST4-3(Attack1)-\uBCC0\uD658 \uC644\uB8CC_81"
+      rect:
+        serializedVersion: 2
+        x: 1391
+        y: 343
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c20ebf3a5c1392310800000000000000
+      internalID: 1380689485695279148
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "TEST4-3(Attack1)-\uBCC0\uD658 \uC644\uB8CC_82"
+      rect:
+        serializedVersion: 2
+        x: 239
+        y: 304
+        width: 42
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1405b0093e3dc3440800000000000000
+      internalID: 4917037867509436481
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "TEST4-3(Attack1)-\uBCC0\uD658 \uC644\uB8CC_83"
+      rect:
+        serializedVersion: 2
+        x: 311
+        y: 319
+        width: 9
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d16fd0294d0f8eda0800000000000000
+      internalID: -5915213314777024995
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "TEST4-3(Attack1)-\uBCC0\uD658 \uC644\uB8CC_84"
+      rect:
+        serializedVersion: 2
+        x: 471
+        y: 319
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 65601d4ff737b5c70800000000000000
+      internalID: 8960882876989113942
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "TEST4-3(Attack1)-\uBCC0\uD658 \uC644\uB8CC_85"
+      rect:
+        serializedVersion: 2
+        x: 494
+        y: 310
+        width: 35
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c7870e6220d598b60800000000000000
+      internalID: 7748826897691211900
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "TEST4-3(Attack1)-\uBCC0\uD658 \uC644\uB8CC_86"
+      rect:
+        serializedVersion: 2
+        x: 527
+        y: 327
+        width: 18
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0af408009e14ffcc0800000000000000
+      internalID: -3675146301919440992
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "TEST4-3(Attack1)-\uBCC0\uD658 \uC644\uB8CC_87"
+      rect:
+        serializedVersion: 2
+        x: 631
+        y: 287
+        width: 50
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 980877b592b8e1ba0800000000000000
+      internalID: -6116298234178076535
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "TEST4-3(Attack1)-\uBCC0\uD658 \uC644\uB8CC_88"
+      rect:
+        serializedVersion: 2
+        x: 687
+        y: 320
+        width: 10
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0a599d2b2725e3240800000000000000
+      internalID: 4773343307639657888
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "TEST4-3(Attack1)-\uBCC0\uD658 \uC644\uB8CC_89"
+      rect:
+        serializedVersion: 2
+        x: 1263
+        y: 24
+        width: 226
+        height: 305
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f375b65fa215a1f20800000000000000
+      internalID: 3394114514125018943
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "TEST4-3(Attack1)-\uBCC0\uD658 \uC644\uB8CC_90"
+      rect:
+        serializedVersion: 2
+        x: 272
+        y: 287
+        width: 34
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 98d3173ae091f0c50800000000000000
+      internalID: 6633548326802374025
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "TEST4-3(Attack1)-\uBCC0\uD658 \uC644\uB8CC_91"
+      rect:
+        serializedVersion: 2
+        x: 423
+        y: 24
+        width: 275
+        height: 290
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 47a536440f48343f0800000000000000
+      internalID: -917743731579069836
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "TEST4-3(Attack1)-\uBCC0\uD658 \uC644\uB8CC_92"
+      rect:
+        serializedVersion: 2
+        x: 534
+        y: 310
+        width: 17
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9e6a3c12ca6206900800000000000000
+      internalID: 675582464848275177
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "TEST4-3(Attack1)-\uBCC0\uD658 \uC644\uB8CC_93"
+      rect:
+        serializedVersion: 2
+        x: 613
+        y: 310
+        width: 18
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dab1f3dde8552ddf0800000000000000
+      internalID: -156968964918928467
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "TEST4-3(Attack1)-\uBCC0\uD658 \uC644\uB8CC_94"
+      rect:
+        serializedVersion: 2
+        x: 1239
+        y: 270
+        width: 53
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1f3f0b937ed52a110800000000000000
+      internalID: 1270681292558627825
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "TEST4-3(Attack1)-\uBCC0\uD658 \uC644\uB8CC_95"
+      rect:
+        serializedVersion: 2
+        x: 95
+        y: 24
+        width: 234
+        height: 279
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 901a71f9cfe265850800000000000000
+      internalID: 6365326785870536969
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "TEST4-3(Attack1)-\uBCC0\uD658 \uC644\uB8CC_96"
+      rect:
+        serializedVersion: 2
+        x: 311
+        y: 175
+        width: 34
+        height: 82
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9fca47c73c8ff2830800000000000000
+      internalID: 4048728108519697657
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "TEST4-3(Attack1)-\uBCC0\uD658 \uC644\uB8CC_97"
+      rect:
+        serializedVersion: 2
+        x: 671
+        y: 247
+        width: 34
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 00d9d8b87ff0de2d0800000000000000
+      internalID: -3247922200391607040
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "TEST4-3(Attack1)-\uBCC0\uD658 \uC644\uB8CC_98"
+      rect:
+        serializedVersion: 2
+        x: 799
+        y: 255
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 55db6de75ba1efe10800000000000000
+      internalID: 2233251832041749845
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "TEST4-3(Attack1)-\uBCC0\uD658 \uC644\uB8CC_99"
+      rect:
+        serializedVersion: 2
+        x: 1199
+        y: 119
+        width: 49
+        height: 153
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 70ee999cce25c0630800000000000000
+      internalID: 3894578954716704263
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "TEST4-3(Attack1)-\uBCC0\uD658 \uC644\uB8CC_100"
+      rect:
+        serializedVersion: 2
+        x: 1245
+        y: 247
+        width: 21
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 885103158d024f4f0800000000000000
+      internalID: -795975120690604664
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "TEST4-3(Attack1)-\uBCC0\uD658 \uC644\uB8CC_101"
+      rect:
+        serializedVersion: 2
+        x: 1487
+        y: 247
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e6af88dd51df3d660800000000000000
+      internalID: 7409544082307480174
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "TEST4-3(Attack1)-\uBCC0\uD658 \uC644\uB8CC_102"
+      rect:
+        serializedVersion: 2
+        x: 23
+        y: 231
+        width: 10
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0cb11a881d90af260800000000000000
+      internalID: 7132023755439676352
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "TEST4-3(Attack1)-\uBCC0\uD658 \uC644\uB8CC_103"
+      rect:
+        serializedVersion: 2
+        x: 359
+        y: 223
+        width: 9
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5c8cefe0e7551a620800000000000000
+      internalID: 2783600044597496005
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "TEST4-3(Attack1)-\uBCC0\uD658 \uC644\uB8CC_104"
+      rect:
+        serializedVersion: 2
+        x: 631
+        y: 80
+        width: 98
+        height: 170
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 85aa0fb2e4686ff00800000000000000
+      internalID: 1150254425142504024
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "TEST4-3(Attack1)-\uBCC0\uD658 \uC644\uB8CC_105"
+      rect:
+        serializedVersion: 2
+        x: 792
+        y: 223
+        width: 9
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: db7a674252f7ba8e0800000000000000
+      internalID: -1681110238390474819
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "TEST4-3(Attack1)-\uBCC0\uD658 \uC644\uB8CC_106"
+      rect:
+        serializedVersion: 2
+        x: 1191
+        y: 231
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 12041ad1b6665a140800000000000000
+      internalID: 4730299593867214881
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "TEST4-3(Attack1)-\uBCC0\uD658 \uC644\uB8CC_107"
+      rect:
+        serializedVersion: 2
+        x: 1246
+        y: 115
+        width: 43
+        height: 138
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 84666ecd52e9c7b60800000000000000
+      internalID: 7745239344627476040
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "TEST4-3(Attack1)-\uBCC0\uD658 \uC644\uB8CC_108"
+      rect:
+        serializedVersion: 2
+        x: 349
+        y: 199
+        width: 12
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5ce6f425c755b0830800000000000000
+      internalID: 4038415483313024709
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "TEST4-3(Attack1)-\uBCC0\uD658 \uC644\uB8CC_109"
+      rect:
+        serializedVersion: 2
+        x: 728
+        y: 199
+        width: 16
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6f46c463a30e92370800000000000000
+      internalID: 8298410329030550774
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "TEST4-3(Attack1)-\uBCC0\uD658 \uC644\uB8CC_110"
+      rect:
+        serializedVersion: 2
+        x: 1119
+        y: 199
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9ec5095f98bee9200800000000000000
+      internalID: 188847212159065321
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "TEST4-3(Attack1)-\uBCC0\uD658 \uC644\uB8CC_111"
+      rect:
+        serializedVersion: 2
+        x: 1495
+        y: 208
+        width: 10
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 019b54b433ff73060800000000000000
+      internalID: 6933290747131443472
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "TEST4-3(Attack1)-\uBCC0\uD658 \uC644\uB8CC_112"
+      rect:
+        serializedVersion: 2
+        x: 1503
+        y: 191
+        width: 11
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2949e0aa995a862c0800000000000000
+      internalID: -4438115353371962222
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "TEST4-3(Attack1)-\uBCC0\uD658 \uC644\uB8CC_113"
+      rect:
+        serializedVersion: 2
+        x: 1096
+        y: 191
+        width: 9
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fe8456d0fb1d84640800000000000000
+      internalID: 5064528399471823087
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "TEST4-3(Attack1)-\uBCC0\uD658 \uC644\uB8CC_114"
+      rect:
+        serializedVersion: 2
+        x: 1175
+        y: 191
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ee74b04ca63322990800000000000000
+      internalID: -7412305503049791506
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "TEST4-3(Attack1)-\uBCC0\uD658 \uC644\uB8CC_115"
+      rect:
+        serializedVersion: 2
+        x: 311
+        y: 119
+        width: 26
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5e30d38c83310c0d0800000000000000
+      internalID: -3404700183693556763
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "TEST4-3(Attack1)-\uBCC0\uD658 \uC644\uB8CC_116"
+      rect:
+        serializedVersion: 2
+        x: 1119
+        y: 175
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6db6ba9be71b01320800000000000000
+      internalID: 2526714548793863126
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "TEST4-3(Attack1)-\uBCC0\uD658 \uC644\uB8CC_117"
+      rect:
+        serializedVersion: 2
+        x: 23
+        y: 159
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b52a46f3b7c4395f0800000000000000
+      internalID: -751172620612492709
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "TEST4-3(Attack1)-\uBCC0\uD658 \uC644\uB8CC_118"
+      rect:
+        serializedVersion: 2
+        x: 351
+        y: 159
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 11f5927f3313b46b0800000000000000
+      internalID: -5311097236293591279
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "TEST4-3(Attack1)-\uBCC0\uD658 \uC644\uB8CC_119"
+      rect:
+        serializedVersion: 2
+        x: 408
+        y: 159
+        width: 8
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a0182801fb1321dc0800000000000000
+      internalID: -3669816049668030198
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "TEST4-3(Attack1)-\uBCC0\uD658 \uC644\uB8CC_120"
+      rect:
+        serializedVersion: 2
+        x: 1495
+        y: 159
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a469b6d17e304e9d0800000000000000
+      internalID: -2746065581623241142
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "TEST4-3(Attack1)-\uBCC0\uD658 \uC644\uB8CC_121"
+      rect:
+        serializedVersion: 2
+        x: 727
+        y: 143
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0625c2a9dec888440800000000000000
+      internalID: 4938351943533482592
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "TEST4-3(Attack1)-\uBCC0\uD658 \uC644\uB8CC_122"
+      rect:
+        serializedVersion: 2
+        x: 799
+        y: 135
+        width: 10
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ba56f6bc5a8047a60800000000000000
+      internalID: 7670765573494498731
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "TEST4-3(Attack1)-\uBCC0\uD658 \uC644\uB8CC_123"
+      rect:
+        serializedVersion: 2
+        x: 1191
+        y: 143
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 27b70e68818363480800000000000000
+      internalID: -8919880333967459470
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "TEST4-3(Attack1)-\uBCC0\uD658 \uC644\uB8CC_124"
+      rect:
+        serializedVersion: 2
+        x: 79
+        y: 103
+        width: 11
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ea22f31e3e2bf3930800000000000000
+      internalID: 4125212475500995246
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "TEST4-3(Attack1)-\uBCC0\uD658 \uC644\uB8CC_125"
+      rect:
+        serializedVersion: 2
+        x: 87
+        y: 87
+        width: 20
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 98bcafda14897ad60800000000000000
+      internalID: 7901451479104015241
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "TEST4-3(Attack1)-\uBCC0\uD658 \uC644\uB8CC_126"
+      rect:
+        serializedVersion: 2
+        x: 1247
+        y: 95
+        width: 27
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fbb4fd29a590f6dc0800000000000000
+      internalID: -3643683288903627841
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable: {}
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
