@@ -174,10 +174,10 @@ TextureImporter:
       name: TEST5-3_0
       rect:
         serializedVersion: 2
-        x: 55
-        y: 1615
-        width: 378
-        height: 362
+        x: 0
+        y: 1536
+        width: 512
+        height: 512
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -196,10 +196,10 @@ TextureImporter:
       name: TEST5-3_1
       rect:
         serializedVersion: 2
-        x: 559
-        y: 1615
-        width: 386
-        height: 363
+        x: 512
+        y: 1536
+        width: 512
+        height: 512
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -218,10 +218,10 @@ TextureImporter:
       name: TEST5-3_2
       rect:
         serializedVersion: 2
-        x: 1055
-        y: 1615
-        width: 434
-        height: 330
+        x: 1024
+        y: 1536
+        width: 512
+        height: 512
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -240,10 +240,10 @@ TextureImporter:
       name: TEST5-3_3
       rect:
         serializedVersion: 2
-        x: 1567
-        y: 1615
-        width: 419
-        height: 363
+        x: 1536
+        y: 1536
+        width: 512
+        height: 512
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -262,10 +262,10 @@ TextureImporter:
       name: TEST5-3_4
       rect:
         serializedVersion: 2
-        x: 31
-        y: 1103
-        width: 450
-        height: 370
+        x: 0
+        y: 1024
+        width: 512
+        height: 512
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -284,10 +284,10 @@ TextureImporter:
       name: TEST5-3_5
       rect:
         serializedVersion: 2
-        x: 559
-        y: 1087
-        width: 395
-        height: 387
+        x: 512
+        y: 1024
+        width: 512
+        height: 512
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -306,10 +306,10 @@ TextureImporter:
       name: TEST5-3_6
       rect:
         serializedVersion: 2
-        x: 1063
-        y: 1103
-        width: 386
-        height: 371
+        x: 1024
+        y: 1024
+        width: 512
+        height: 512
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -328,10 +328,10 @@ TextureImporter:
       name: TEST5-3_7
       rect:
         serializedVersion: 2
-        x: 1567
-        y: 1103
-        width: 402
-        height: 354
+        x: 1536
+        y: 1024
+        width: 512
+        height: 512
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -350,10 +350,10 @@ TextureImporter:
       name: TEST5-3_8
       rect:
         serializedVersion: 2
-        x: 23
-        y: 575
-        width: 434
-        height: 378
+        x: 0
+        y: 512
+        width: 512
+        height: 512
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -372,10 +372,10 @@ TextureImporter:
       name: TEST5-3_9
       rect:
         serializedVersion: 2
-        x: 551
-        y: 591
-        width: 418
-        height: 362
+        x: 512
+        y: 512
+        width: 512
+        height: 512
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -394,10 +394,10 @@ TextureImporter:
       name: TEST5-3_10
       rect:
         serializedVersion: 2
-        x: 1063
-        y: 583
-        width: 426
-        height: 370
+        x: 1024
+        y: 512
+        width: 512
+        height: 512
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -416,10 +416,10 @@ TextureImporter:
       name: TEST5-3_11
       rect:
         serializedVersion: 2
-        x: 1567
-        y: 591
-        width: 402
-        height: 363
+        x: 1536
+        y: 512
+        width: 512
+        height: 512
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -438,10 +438,10 @@ TextureImporter:
       name: TEST5-3_12
       rect:
         serializedVersion: 2
-        x: 39
-        y: 95
-        width: 394
-        height: 379
+        x: 0
+        y: 0
+        width: 512
+        height: 512
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -460,10 +460,10 @@ TextureImporter:
       name: TEST5-3_13
       rect:
         serializedVersion: 2
-        x: 543
-        y: 95
-        width: 418
-        height: 355
+        x: 512
+        y: 0
+        width: 512
+        height: 512
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -482,10 +482,10 @@ TextureImporter:
       name: TEST5-3_14
       rect:
         serializedVersion: 2
-        x: 1055
-        y: 95
-        width: 403
-        height: 354
+        x: 1024
+        y: 0
+        width: 512
+        height: 512
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -504,10 +504,10 @@ TextureImporter:
       name: TEST5-3_15
       rect:
         serializedVersion: 2
-        x: 1575
-        y: 95
-        width: 379
-        height: 418
+        x: 1536
+        y: 0
+        width: 512
+        height: 512
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -526,7 +526,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: edf023a779b8693408138e22fdcb1150
     internalID: 0
     vertices: []
     indices: 

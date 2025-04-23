@@ -127,7 +127,7 @@ GameObject:
   - component: {fileID: 5155857292958409091}
   m_Layer: 0
   m_Name: Player
-  m_TagString: Untagged
+  m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -173,6 +173,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   moveSpeed: 5
+  playerCamera: {fileID: 0}
   maxHealth: 100
   currentHealth: 0
   animator: {fileID: 1017449111810435630}

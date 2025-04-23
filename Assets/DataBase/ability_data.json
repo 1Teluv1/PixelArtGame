@@ -1,0 +1,18 @@
+[
+  {
+    "abilityId": 201,
+    "name": "Fireball",
+    "description": "Shoots a ball of fire that deals AoE damage.",
+    "type": "Magic",
+    "stage": 3,
+    "subtype": "Elemental"
+  },
+  {
+    "abilityId": 202,
+    "name": "Shield Bash",
+    "description": "Bash enemies with a shield, stunning them briefly.",
+    "type": "Physical",
+    "stage": 2,
+    "subtype": "Defensive"
+  }
+]

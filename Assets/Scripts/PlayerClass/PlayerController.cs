@@ -8,6 +8,10 @@ public class PlayerController : MonoBehaviour
     [Header("Movement Settings")]
     [SerializeField] private float moveSpeed = 5.0f;
     
+    [Header("플레이어 카메라")]
+    [SerializeField] private Camera playerCamera; // 플레이어를 따라다니는 카메라
+    public Camera GetPlayerCamera() => playerCamera;
+
     [Header("Health Settings")]
     [SerializeField] private float maxHealth = 100.0f;
     [SerializeField] private float currentHealth;
@@ -29,6 +33,8 @@ public class PlayerController : MonoBehaviour
     public delegate void PlayerDied();
     public static event PlayerDied OnPlayerDied;
 
+    private bool isDead = false;
+
     private void Awake()
     {
         rb = GetComponent<Rigidbody2D>();
@@ -49,7 +55,11 @@ public class PlayerController : MonoBehaviour
     {
         UpdateAnimation();
     }
-    
+
+    private void LateUpdate()
+    {
+        FollowCamera();
+    }
 
     private void Move()
     {
@@ -142,17 +152,17 @@ public class PlayerController : MonoBehaviour
 
     private void Die()
     {
+        if (isDead) return;
+        isDead = true;
         // Invoke death event
         OnPlayerDied?.Invoke();
-        
         // Disable player controls
         rb.linearVelocity = Vector2.zero;
         enabled = false;
-        
         // Play death animation if available
         if (animator != null)
         {
-            animator.SetTrigger("Die");
+            animator.SetTrigger("Die"); // 트리거 방식으로 변경
         }
     }
     
@@ -164,5 +174,15 @@ public class PlayerController : MonoBehaviour
     public float GetMaxHealth()
     {
         return maxHealth;
+    }
+
+    private void FollowCamera()
+    {
+        if (playerCamera != null)
+        {
+            Vector3 playerPos = transform.position;
+            playerPos.z = playerCamera.transform.position.z; // 카메라의 z값 유지(2D)
+            playerCamera.transform.position = playerPos;
+        }
     }
 } 

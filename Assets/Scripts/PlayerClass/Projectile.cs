@@ -45,10 +45,10 @@ public class Projectile : MonoBehaviour
         if (other.CompareTag("Enemy"))
         {
             // Apply damage to enemy
-            Enemy enemy = other.GetComponent<Enemy>();
-            if (enemy != null)
+            Monster monster = other.GetComponent<Monster>();
+            if (monster != null)
             {
-                enemy.TakeDamage(damage);
+                monster.TakeDamage(damage);
             }
             
             // Handle piercing
