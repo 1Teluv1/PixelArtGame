@@ -1,0 +1,57 @@
+---
+description: 
+globs: 
+alwaysApply: false
+---
+# Projectile.cs Unity 2D Rule
+
+This rule describes conventions and structure for [Assets/Scripts/PlayerClass/Projectile.cs](mdc:Assets/Scripts/PlayerClass/Projectile.cs) in a Unity 2D C# project.
+
+---
+
+## 1. 클래스 및 파일 구조
+- 한 파일에는 하나의 public 클래스를 정의한다.
+- 클래스명과 파일명은 반드시 일치시킨다.
+
+## 2. 네이밍 컨벤션
+- 클래스, 메서드: PascalCase 사용 (예: Projectile, Initialize)
+- 변수, 필드: camelCase 사용 (예: damage, direction)
+- 상수: const 또는 readonly, UPPER_SNAKE_CASE 또는 PascalCase (예: MaxPierceCount)
+
+## 3. 필드 선언 및 접근 제한자
+- 모든 필드는 명시적으로 접근 제한자를 붙인다 (private, public 등).
+- 외부 접근 필요시 public 또는 [SerializeField] 사용.
+- 상수는 const 또는 readonly로 선언.
+
+## 4. Unity 컴포넌트 참조
+- 컴포넌트 참조는 Awake/Start에서 캐싱한다.
+- GetComponent는 최소화, 반복 호출 금지.
+
+## 5. 메서드 구조 및 역할 분리
+- 초기화 메서드는 Initialize 등 명확한 이름 사용.
+- 충돌 처리(OnTriggerEnter2D)는 태그와 컴포넌트 체크를 분리.
+- 파라미터가 많으면 구조체/클래스 또는 빌더 패턴 고려.
+
+## 6. 물리 및 방향 처리
+- Rigidbody2D의 속도는 rb.velocity로 설정.
+- 방향 벡터는 정규화된 값 사용.
+- 회전은 transform.rotation = Quaternion.Euler(0, 0, angle)로 일관성 있게 처리.
+
+## 7. 파괴 및 라이프사이클 관리
+- Destroy(gameObject, lifetime)로 수명 관리.
+- 충돌 시 파괴 조건을 명확히 분기.
+- 피어싱 로직은 카운트 증가 및 최대치 도달 시 파괴.
+
+## 8. 태그 및 컴포넌트 체크
+- 태그 비교는 CompareTag로 한다.
+- 컴포넌트가 없을 경우 null 체크 후 처리.
+
+## 9. 기타
+- 불필요한 using 구문 제거.
+- 주석은 핵심 로직 위주로 간결하게 작성.
+- 매직 넘버는 상수로 치환.
+
+---
+
+이 규칙은 [Projectile.cs](mdc:Assets/Scripts/PlayerClass/Projectile.cs) 리팩토링 및 유지보수 시 반드시 준수한다.
+

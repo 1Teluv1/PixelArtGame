@@ -177,10 +177,10 @@ TextureImporter:
       name: "TEST4-2(RUN)-\uBCC0\uD658 \uC644\uB8CC_0"
       rect:
         serializedVersion: 2
-        x: 88
-        y: 1171
-        width: 232
-        height: 308
+        x: 0
+        y: 1152
+        width: 384
+        height: 384
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -199,10 +199,10 @@ TextureImporter:
       name: "TEST4-2(RUN)-\uBCC0\uD658 \uC644\uB8CC_1"
       rect:
         serializedVersion: 2
-        x: 183
-        y: 1473
-        width: 36
-        height: 6
+        x: 384
+        y: 1152
+        width: 384
+        height: 384
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -221,10 +221,10 @@ TextureImporter:
       name: "TEST4-2(RUN)-\uBCC0\uD658 \uC644\uB8CC_2"
       rect:
         serializedVersion: 2
-        x: 423
-        y: 1174
-        width: 278
-        height: 300
+        x: 768
+        y: 1152
+        width: 384
+        height: 384
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -243,10 +243,10 @@ TextureImporter:
       name: "TEST4-2(RUN)-\uBCC0\uD658 \uC644\uB8CC_3"
       rect:
         serializedVersion: 2
-        x: 798
-        y: 1174
-        width: 291
-        height: 300
+        x: 1152
+        y: 1152
+        width: 384
+        height: 384
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -265,10 +265,10 @@ TextureImporter:
       name: "TEST4-2(RUN)-\uBCC0\uD658 \uC644\uB8CC_4"
       rect:
         serializedVersion: 2
-        x: 1183
-        y: 1176
-        width: 298
-        height: 290
+        x: 0
+        y: 768
+        width: 384
+        height: 384
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -287,10 +287,10 @@ TextureImporter:
       name: "TEST4-2(RUN)-\uBCC0\uD658 \uC644\uB8CC_5"
       rect:
         serializedVersion: 2
-        x: 39
-        y: 791
-        width: 298
-        height: 299
+        x: 384
+        y: 768
+        width: 384
+        height: 384
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -309,10 +309,10 @@ TextureImporter:
       name: "TEST4-2(RUN)-\uBCC0\uD658 \uC644\uB8CC_6"
       rect:
         serializedVersion: 2
-        x: 407
-        y: 792
-        width: 307
-        height: 298
+        x: 768
+        y: 768
+        width: 384
+        height: 384
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -331,10 +331,10 @@ TextureImporter:
       name: "TEST4-2(RUN)-\uBCC0\uD658 \uC644\uB8CC_7"
       rect:
         serializedVersion: 2
-        x: 791
-        y: 793
-        width: 307
-        height: 297
+        x: 1152
+        y: 768
+        width: 384
+        height: 384
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -353,10 +353,10 @@ TextureImporter:
       name: "TEST4-2(RUN)-\uBCC0\uD658 \uC644\uB8CC_8"
       rect:
         serializedVersion: 2
-        x: 1175
-        y: 792
-        width: 312
-        height: 298
+        x: 0
+        y: 384
+        width: 384
+        height: 384
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -375,10 +375,10 @@ TextureImporter:
       name: "TEST4-2(RUN)-\uBCC0\uD658 \uC644\uB8CC_9"
       rect:
         serializedVersion: 2
-        x: 31
-        y: 408
-        width: 307
-        height: 298
+        x: 384
+        y: 384
+        width: 384
+        height: 384
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -397,10 +397,10 @@ TextureImporter:
       name: "TEST4-2(RUN)-\uBCC0\uD658 \uC644\uB8CC_10"
       rect:
         serializedVersion: 2
-        x: 407
-        y: 407
-        width: 314
-        height: 299
+        x: 768
+        y: 384
+        width: 384
+        height: 384
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -419,10 +419,10 @@ TextureImporter:
       name: "TEST4-2(RUN)-\uBCC0\uD658 \uC644\uB8CC_11"
       rect:
         serializedVersion: 2
-        x: 791
-        y: 409
-        width: 316
-        height: 297
+        x: 1152
+        y: 384
+        width: 384
+        height: 384
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -441,10 +441,10 @@ TextureImporter:
       name: "TEST4-2(RUN)-\uBCC0\uD658 \uC644\uB8CC_12"
       rect:
         serializedVersion: 2
-        x: 1175
-        y: 408
-        width: 315
-        height: 298
+        x: 0
+        y: 0
+        width: 384
+        height: 384
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -463,10 +463,10 @@ TextureImporter:
       name: "TEST4-2(RUN)-\uBCC0\uD658 \uC644\uB8CC_13"
       rect:
         serializedVersion: 2
-        x: 71
-        y: 39
-        width: 266
-        height: 290
+        x: 384
+        y: 0
+        width: 384
+        height: 384
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -485,10 +485,10 @@ TextureImporter:
       name: "TEST4-2(RUN)-\uBCC0\uD658 \uC644\uB8CC_14"
       rect:
         serializedVersion: 2
-        x: 439
-        y: 39
-        width: 282
-        height: 290
+        x: 768
+        y: 0
+        width: 384
+        height: 384
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -507,10 +507,10 @@ TextureImporter:
       name: "TEST4-2(RUN)-\uBCC0\uD658 \uC644\uB8CC_15"
       rect:
         serializedVersion: 2
-        x: 815
-        y: 39
-        width: 282
-        height: 290
+        x: 1152
+        y: 0
+        width: 384
+        height: 384
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -525,33 +525,11 @@ TextureImporter:
       indices: 
       edges: []
       weights: []
-    - serializedVersion: 2
-      name: "TEST4-2(RUN)-\uBCC0\uD658 \uC644\uB8CC_16"
-      rect:
-        serializedVersion: 2
-        x: 1231
-        y: 39
-        width: 250
-        height: 290
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: bdcb032926b378440800000000000000
-      internalID: 4937980810980539611
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
     outline: []
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: cdb8eede39311c4488e67ab24a054cca
     internalID: 0
     vertices: []
     indices: 
@@ -560,7 +538,23 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      "TEST4-2(RUN)-\uBCC0\uD658 \uC644\uB8CC_0": -7579833729241692828
+      "TEST4-2(RUN)-\uBCC0\uD658 \uC644\uB8CC_1": -5531278600861452314
+      "TEST4-2(RUN)-\uBCC0\uD658 \uC644\uB8CC_10": -2113667923009582297
+      "TEST4-2(RUN)-\uBCC0\uD658 \uC644\uB8CC_11": -7234885106829605833
+      "TEST4-2(RUN)-\uBCC0\uD658 \uC644\uB8CC_12": 755557374709506209
+      "TEST4-2(RUN)-\uBCC0\uD658 \uC644\uB8CC_13": 2335045760275892345
+      "TEST4-2(RUN)-\uBCC0\uD658 \uC644\uB8CC_14": 611452937704574010
+      "TEST4-2(RUN)-\uBCC0\uD658 \uC644\uB8CC_15": 2505272568695640532
+      "TEST4-2(RUN)-\uBCC0\uD658 \uC644\uB8CC_2": -4321708891881193005
+      "TEST4-2(RUN)-\uBCC0\uD658 \uC644\uB8CC_3": -6793320118577592384
+      "TEST4-2(RUN)-\uBCC0\uD658 \uC644\uB8CC_4": 5574739119586862817
+      "TEST4-2(RUN)-\uBCC0\uD658 \uC644\uB8CC_5": 9052165362017434721
+      "TEST4-2(RUN)-\uBCC0\uD658 \uC644\uB8CC_6": -4008520685203060458
+      "TEST4-2(RUN)-\uBCC0\uD658 \uC644\uB8CC_7": -8173948488430571008
+      "TEST4-2(RUN)-\uBCC0\uD658 \uC644\uB8CC_8": 6632319784010544740
+      "TEST4-2(RUN)-\uBCC0\uD658 \uC644\uB8CC_9": -6792607665001076181
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

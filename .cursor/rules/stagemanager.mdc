@@ -1,0 +1,53 @@
+---
+description: 
+globs: 
+alwaysApply: false
+---
+# StageManager 규칙
+
+이 규칙은 [Assets/Scripts/StageManager.cs](mdc:Assets/Scripts/StageManager.cs) 및 관련 스테이지 관리 시스템에 적용됩니다.
+
+---
+
+## 1. 클래스 및 파일 구조
+- StageManager는 반드시 단일 클래스로 구현하며, 파일명과 클래스명을 일치시킨다.
+- 스테이지 관련 데이터(예: StageData)는 별도 클래스로 분리할 수 있다.
+- 씬/스테이지 전환, 상태 관리, 이벤트 처리 등 주요 기능은 별도 메서드로 분리한다.
+
+## 2. 싱글톤 패턴
+- StageManager는 싱글톤 패턴을 사용하여 프로젝트 내에서 단 하나만 존재하도록 한다.
+- Instance 프로퍼티를 통해 접근하며, 중복 인스턴스 방지 로직을 포함한다.
+
+## 3. 네이밍 컨벤션
+- 클래스, 메서드: PascalCase (예: StageManager, LoadStage)
+- 변수, 필드: camelCase (예: currentStage, stageDataList)
+- 상수: const 또는 readonly, UPPER_SNAKE_CASE 또는 PascalCase
+
+## 4. 스테이지 데이터 및 관리
+- 스테이지별 데이터(이름, 난이도, 적 배치 등)는 StageData 클래스로 관리한다.
+- 스테이지 목록은 List<StageData> 등 컬렉션으로 보관한다.
+- 현재 스테이지 인덱스, 상태 등은 명확히 구분하여 관리한다.
+
+## 5. 씬/스테이지 전환
+- 씬 전환은 UnityEngine.SceneManagement를 사용한다.
+- 스테이지 시작, 종료, 재시작 등은 별도 메서드로 분리한다.
+- 비동기 로딩(AsyncOperation) 등 필요시 지원한다.
+
+## 6. 이벤트 및 콜백
+- 스테이지 시작, 종료, 실패, 성공 등 주요 이벤트는 C# 이벤트/델리게이트로 제공한다.
+- 외부 시스템(예: UI, EnemyManager 등)이 이벤트를 구독할 수 있도록 한다.
+
+## 7. Inspector 및 직렬화
+- [SerializeField]로 인스펙터에서 할당할 필드는 private으로 선언한다.
+- 스테이지 데이터 등은 ScriptableObject 또는 직렬화 클래스로 관리할 수 있다.
+
+## 8. 기타
+- 불필요한 using 구문 제거.
+- 주석은 핵심 로직 위주로 간결하게 작성.
+- 매직 넘버는 상수로 치환.
+- 예외 상황(스테이지 데이터 없음, 씬 로드 실패 등) 처리 로직 포함.
+
+---
+
+이 규칙은 StageManager 및 관련 스테이지 관리 시스템의 설계, 구현, 리팩토링, 유지보수 시 반드시 준수한다.
+

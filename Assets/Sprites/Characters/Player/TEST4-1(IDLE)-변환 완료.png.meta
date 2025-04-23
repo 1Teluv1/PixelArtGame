@@ -174,10 +174,10 @@ TextureImporter:
       name: "TEST4-1(IDLE)-\uBCC0\uD658 \uC644\uB8CC_0"
       rect:
         serializedVersion: 2
-        x: 101
-        y: 1190
-        width: 220
-        height: 298
+        x: 0
+        y: 1152
+        width: 384
+        height: 384
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -196,10 +196,10 @@ TextureImporter:
       name: "TEST4-1(IDLE)-\uBCC0\uD658 \uC644\uB8CC_1"
       rect:
         serializedVersion: 2
-        x: 486
-        y: 1190
-        width: 219
-        height: 298
+        x: 384
+        y: 1152
+        width: 384
+        height: 384
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -218,10 +218,10 @@ TextureImporter:
       name: "TEST4-1(IDLE)-\uBCC0\uD658 \uC644\uB8CC_2"
       rect:
         serializedVersion: 2
-        x: 870
-        y: 1190
-        width: 218
-        height: 298
+        x: 768
+        y: 1152
+        width: 384
+        height: 384
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -240,10 +240,10 @@ TextureImporter:
       name: "TEST4-1(IDLE)-\uBCC0\uD658 \uC644\uB8CC_3"
       rect:
         serializedVersion: 2
-        x: 1254
-        y: 1190
-        width: 219
-        height: 298
+        x: 1152
+        y: 1152
+        width: 384
+        height: 384
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -262,10 +262,10 @@ TextureImporter:
       name: "TEST4-1(IDLE)-\uBCC0\uD658 \uC644\uB8CC_4"
       rect:
         serializedVersion: 2
-        x: 101
-        y: 767
-        width: 285
-        height: 338
+        x: 0
+        y: 768
+        width: 384
+        height: 384
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -284,10 +284,10 @@ TextureImporter:
       name: "TEST4-1(IDLE)-\uBCC0\uD658 \uC644\uB8CC_5"
       rect:
         serializedVersion: 2
-        x: 486
-        y: 806
-        width: 218
-        height: 298
+        x: 384
+        y: 768
+        width: 384
+        height: 384
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -306,10 +306,10 @@ TextureImporter:
       name: "TEST4-1(IDLE)-\uBCC0\uD658 \uC644\uB8CC_6"
       rect:
         serializedVersion: 2
-        x: 870
-        y: 806
-        width: 218
-        height: 298
+        x: 768
+        y: 768
+        width: 384
+        height: 384
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -328,10 +328,10 @@ TextureImporter:
       name: "TEST4-1(IDLE)-\uBCC0\uD658 \uC644\uB8CC_7"
       rect:
         serializedVersion: 2
-        x: 1254
-        y: 806
-        width: 219
-        height: 298
+        x: 1152
+        y: 768
+        width: 384
+        height: 384
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -350,10 +350,10 @@ TextureImporter:
       name: "TEST4-1(IDLE)-\uBCC0\uD658 \uC644\uB8CC_8"
       rect:
         serializedVersion: 2
-        x: 101
-        y: 422
-        width: 219
-        height: 298
+        x: 0
+        y: 384
+        width: 384
+        height: 384
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -372,10 +372,10 @@ TextureImporter:
       name: "TEST4-1(IDLE)-\uBCC0\uD658 \uC644\uB8CC_9"
       rect:
         serializedVersion: 2
-        x: 486
-        y: 422
-        width: 219
-        height: 298
+        x: 384
+        y: 384
+        width: 384
+        height: 384
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -394,10 +394,10 @@ TextureImporter:
       name: "TEST4-1(IDLE)-\uBCC0\uD658 \uC644\uB8CC_10"
       rect:
         serializedVersion: 2
-        x: 869
-        y: 422
-        width: 219
-        height: 298
+        x: 768
+        y: 384
+        width: 384
+        height: 384
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -416,10 +416,10 @@ TextureImporter:
       name: "TEST4-1(IDLE)-\uBCC0\uD658 \uC644\uB8CC_11"
       rect:
         serializedVersion: 2
-        x: 1254
-        y: 422
-        width: 219
-        height: 298
+        x: 1152
+        y: 384
+        width: 384
+        height: 384
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -438,10 +438,10 @@ TextureImporter:
       name: "TEST4-1(IDLE)-\uBCC0\uD658 \uC644\uB8CC_12"
       rect:
         serializedVersion: 2
-        x: 102
-        y: 38
-        width: 218
-        height: 298
+        x: 0
+        y: 0
+        width: 384
+        height: 384
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -460,10 +460,10 @@ TextureImporter:
       name: "TEST4-1(IDLE)-\uBCC0\uD658 \uC644\uB8CC_13"
       rect:
         serializedVersion: 2
-        x: 485
-        y: 38
-        width: 220
-        height: 298
+        x: 384
+        y: 0
+        width: 384
+        height: 384
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -482,10 +482,10 @@ TextureImporter:
       name: "TEST4-1(IDLE)-\uBCC0\uD658 \uC644\uB8CC_14"
       rect:
         serializedVersion: 2
-        x: 847
-        y: 38
-        width: 241
-        height: 282
+        x: 768
+        y: 0
+        width: 384
+        height: 384
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -504,10 +504,10 @@ TextureImporter:
       name: "TEST4-1(IDLE)-\uBCC0\uD658 \uC644\uB8CC_15"
       rect:
         serializedVersion: 2
-        x: 1214
-        y: 38
-        width: 259
-        height: 283
+        x: 1152
+        y: 0
+        width: 384
+        height: 384
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -526,7 +526,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: 37ddebf8ff721d343ac8bbdc482063dd
     internalID: 0
     vertices: []
     indices: 
@@ -535,7 +535,23 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      "TEST4-1(IDLE)-\uBCC0\uD658 \uC644\uB8CC_0": 1407369422427180277
+      "TEST4-1(IDLE)-\uBCC0\uD658 \uC644\uB8CC_1": -4002194148100306334
+      "TEST4-1(IDLE)-\uBCC0\uD658 \uC644\uB8CC_10": 8315897192561661148
+      "TEST4-1(IDLE)-\uBCC0\uD658 \uC644\uB8CC_11": 7692432976671366789
+      "TEST4-1(IDLE)-\uBCC0\uD658 \uC644\uB8CC_12": -1018112817698357333
+      "TEST4-1(IDLE)-\uBCC0\uD658 \uC644\uB8CC_13": 2166359234429681986
+      "TEST4-1(IDLE)-\uBCC0\uD658 \uC644\uB8CC_14": 1270478966141763710
+      "TEST4-1(IDLE)-\uBCC0\uD658 \uC644\uB8CC_15": 1710487112262864096
+      "TEST4-1(IDLE)-\uBCC0\uD658 \uC644\uB8CC_2": 7238376481592721525
+      "TEST4-1(IDLE)-\uBCC0\uD658 \uC644\uB8CC_3": -208842433017745643
+      "TEST4-1(IDLE)-\uBCC0\uD658 \uC644\uB8CC_4": -4141895312912319767
+      "TEST4-1(IDLE)-\uBCC0\uD658 \uC644\uB8CC_5": -4325082378389920067
+      "TEST4-1(IDLE)-\uBCC0\uD658 \uC644\uB8CC_6": 3687172280387116149
+      "TEST4-1(IDLE)-\uBCC0\uD658 \uC644\uB8CC_7": -5068866980402894104
+      "TEST4-1(IDLE)-\uBCC0\uD658 \uC644\uB8CC_8": 2408679431053418938
+      "TEST4-1(IDLE)-\uBCC0\uD658 \uC644\uB8CC_9": 9197589445963308316
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

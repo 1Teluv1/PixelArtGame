@@ -1,0 +1,81 @@
+---
+description: 
+globs: 
+alwaysApply: false
+---
+# Player Combat System Rule
+
+이 규칙은 다음 파일에 적용됩니다:
+- [Assets/Scripts/PlayerClass/CombatSystem.cs](mdc:Assets/Scripts/PlayerClass/CombatSystem.cs)
+- [Assets/Scripts/PlayerClass/Player.cs](mdc:Assets/Scripts/PlayerClass/Player.cs)
+- [Assets/Scripts/PlayerClass/Projectile.cs](mdc:Assets/Scripts/PlayerClass/Projectile.cs)
+- [Assets/Scripts/PlayerClass/PlayerController.cs](mdc:Assets/Scripts/PlayerClass/PlayerController.cs)
+- [Assets/Scripts/PlayerClass/PlayerStats.cs](mdc:Assets/Scripts/PlayerClass/PlayerStats.cs)
+- [Assets/Scripts/PlayerClass/WeaponSystem.cs](mdc:Assets/Scripts/PlayerClass/WeaponSystem.cs)
+
+---
+
+## 1. 클래스 및 파일 구조
+- 한 파일에는 하나의 public 클래스를 정의한다.
+- 클래스명과 파일명은 반드시 일치시킨다.
+- 각 시스템(플레이어, 무기, 전투, 투사체, 스탯)은 별도 클래스로 분리한다.
+
+## 2. 네이밍 컨벤션
+- 클래스, 메서드: PascalCase 사용 (예: Player, PerformAttack1)
+- 변수, 필드: camelCase 사용 (예: moveSpeed, currentHealth)
+- 상수: const 또는 readonly, UPPER_SNAKE_CASE 또는 PascalCase (예: MaxPierceCount)
+- 이벤트, 델리게이트: OnEventName, EventNameHandler 등 명확한 네이밍
+
+## 3. 필드 선언 및 접근 제한자
+- 모든 필드는 명시적으로 접근 제한자를 붙인다 (private, public 등).
+- 외부 접근 필요시 public 또는 [SerializeField] 사용.
+- 상수는 const 또는 readonly로 선언.
+
+## 4. Unity 컴포넌트 및 Inspector
+- [SerializeField]로 인스펙터에서 할당할 필드는 private으로 선언.
+- 컴포넌트 참조는 Awake/Start에서 캐싱한다.
+- GetComponent는 최소화, 반복 호출 금지.
+
+## 5. 입력 및 이벤트 처리
+- 입력은 Input System을 사용하며, InputValue 파라미터를 활용한다.
+- 이벤트 및 델리게이트는 static으로 선언하고, 구독/해제는 OnEnable/OnDisable에서 처리한다.
+- 경험치, 체력, 레벨업 등 주요 상태 변화는 이벤트로 알린다.
+
+## 6. 메서드 구조 및 역할 분리
+- 각 기능(이동, 공격, 데미지, 회복 등)은 별도 메서드로 분리한다.
+- 공격, 스킬 등은 PerformAttackX, PerformSkill 등 명확한 이름 사용.
+- 충돌 처리(OnTriggerEnter2D)는 태그와 컴포넌트 체크를 분리.
+- 파라미터가 많으면 구조체/클래스 또는 빌더 패턴 고려.
+
+## 7. 물리, 애니메이션, 방향 처리
+- Rigidbody2D의 속도는 rb.velocity 또는 rb.linearVelocity로 설정.
+- 방향 벡터는 정규화된 값 사용.
+- 애니메이션 파라미터는 SetTrigger, SetBool 등으로 제어.
+- 스프라이트 뒤집기 등 시각 효과는 별도 메서드로 분리 가능.
+
+## 8. 파괴 및 라이프사이클 관리
+- Destroy(gameObject, lifetime)로 수명 관리.
+- 충돌 시 파괴 조건을 명확히 분기.
+- 피어싱 로직은 카운트 증가 및 최대치 도달 시 파괴.
+- 플레이어 사망 시 이벤트 호출 및 컨트롤 비활성화.
+
+## 9. 무기 및 투사체 시스템
+- 무기 데이터는 WeaponData 클래스로 관리.
+- 무기 해금/레벨업/발사 등은 WeaponSystem에서 일괄 처리.
+- 투사체는 Projectile 클래스로 관리하며, 초기화 메서드(Initialize)로 속성 전달.
+- 무기/투사체 관련 매직 넘버는 상수로 치환.
+
+## 10. 태그 및 컴포넌트 체크
+- 태그 비교는 CompareTag로 한다.
+- 컴포넌트가 없을 경우 null 체크 후 처리.
+
+## 11. 기타
+- 불필요한 using 구문 제거.
+- 주석은 핵심 로직 위주로 간결하게 작성.
+- 매직 넘버는 상수로 치환.
+- Inspector에서 할당 가능한 필드는 [Header] 등으로 그룹화.
+
+---
+
+이 규칙은 플레이어 전투 시스템 관련 파일의 리팩토링 및 유지보수 시 반드시 준수한다.
+
