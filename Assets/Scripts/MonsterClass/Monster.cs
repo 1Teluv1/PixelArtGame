@@ -76,7 +76,15 @@ public class Monster : MonoBehaviour
     {
         if (isDead || playerTransform == null) return;
         Vector3 direction = (playerTransform.position - transform.position).normalized;
-        transform.position += direction * moveSpeed * Time.deltaTime;
+        Rigidbody2D rb = GetComponent<Rigidbody2D>();
+        if (rb != null)
+        {
+            rb.MovePosition(rb.position + (Vector2)direction * moveSpeed * Time.deltaTime);
+        }
+        else
+        {
+            transform.position += direction * moveSpeed * Time.deltaTime;
+        }
     }
 
     public void AttackPlayer()

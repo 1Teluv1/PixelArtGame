@@ -450,6 +450,18 @@ PrefabInstance:
       propertyPath: playerCamera
       value: 
       objectReference: {fileID: 1721263263}
+    - target: {fileID: 1048751012820664506, guid: 173d1318e6932d44bac6f9c6f9e0e57c, type: 3}
+      propertyPath: m_Constraints
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 1048751012820664506, guid: 173d1318e6932d44bac6f9c6f9e0e57c, type: 3}
+      propertyPath: m_IncludeLayers.m_Bits
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1767722746331697234, guid: 173d1318e6932d44bac6f9c6f9e0e57c, type: 3}
+      propertyPath: m_Layer
+      value: 3
+      objectReference: {fileID: 0}
     - target: {fileID: 2015806736526209032, guid: 173d1318e6932d44bac6f9c6f9e0e57c, type: 3}
       propertyPath: m_LocalPosition.x
       value: 0
@@ -490,9 +502,17 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 2173324572656519352, guid: 173d1318e6932d44bac6f9c6f9e0e57c, type: 3}
+      propertyPath: m_SortingOrder
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 5069180338552783396, guid: 173d1318e6932d44bac6f9c6f9e0e57c, type: 3}
       propertyPath: m_Name
       value: Player
+      objectReference: {fileID: 0}
+    - target: {fileID: 5069180338552783396, guid: 173d1318e6932d44bac6f9c6f9e0e57c, type: 3}
+      propertyPath: m_Layer
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 5069180338552783396, guid: 173d1318e6932d44bac6f9c6f9e0e57c, type: 3}
       propertyPath: m_TagString
