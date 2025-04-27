@@ -54,6 +54,8 @@ MonoBehaviour:
   attackRate: 1
   experienceValue: 10
   spriteFrameAnimator: {fileID: 8738445682985971643}
+  spriteRenderer: {fileID: 3023714146065541423}
+  hitMaterial: {fileID: 2100000, guid: d5088438b9677974e92abbb12d02714c, type: 2}
 --- !u!50 &845485483223220684
 Rigidbody2D:
   serializedVersion: 5
@@ -73,7 +75,7 @@ Rigidbody2D:
   m_Material: {fileID: 0}
   m_IncludeLayers:
     serializedVersion: 2
-    m_Bits: 8
+    m_Bits: 0
   m_ExcludeLayers:
     serializedVersion: 2
     m_Bits: 0
@@ -94,10 +96,10 @@ BoxCollider2D:
   m_Material: {fileID: 0}
   m_IncludeLayers:
     serializedVersion: 2
-    m_Bits: 0
+    m_Bits: 8
   m_ExcludeLayers:
     serializedVersion: 2
-    m_Bits: 8
+    m_Bits: 0
   m_LayerOverridePriority: 0
   m_ForceSendLayers:
     serializedVersion: 2
@@ -140,7 +142,7 @@ GameObject:
   - component: {fileID: 8738445682985971643}
   m_Layer: 6
   m_Name: MonsterSprite
-  m_TagString: Untagged
+  m_TagString: Monster
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -183,7 +185,7 @@ SpriteRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: a97c105638bdf8b4a8650670310a4cd3, type: 2}
+  - {fileID: 2100000, guid: d5088438b9677974e92abbb12d02714c, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0

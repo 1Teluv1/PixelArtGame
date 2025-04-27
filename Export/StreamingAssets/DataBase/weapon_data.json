@@ -1,0 +1,44 @@
+[
+  {
+    "weaponId": 201,
+    "name": "Sword",
+    "damage": 5,
+    "scale_x": 5.5,
+    "scale_y": 3.5,
+    "cooldown": 0.1,
+    "description": "Sword",
+    "type": "Melee",
+    "texturePath": "Sprites/Weapon/스킬1.png",
+    "imagePath": "UI/Weapon/참격.png",
+    "stage": 0,
+    "subtype": "Elemental"
+  },
+  {
+    "weaponId": 202,
+    "name": "Fireball",
+    "damage": 5,
+    "scale_x": 0.5,
+    "scale_y": 0.5,
+    "cooldown": 1.0,
+    "description": "Fireball",
+    "type": "Ranged",
+    "texturePath": "Sprites/Weapon/파이어볼.png",
+    "imagePath": "UI/Weapon/파이어볼.png",
+    "stage": 0,
+    "subtype": "Elemental"
+  },
+  {
+    "weaponId": 203,
+    "name": "LightBall",
+    "damage": 1,
+    "scale_x": 1.5,
+    "scale_y": 1.5,
+    "cooldown": 1.0,
+    "description": "LightBall",
+    "type": "Orbit",
+    "texturePath": "Sprites/Weapon/구체.png",
+    "imagePath": "Sprites/Weapon/구체.png",
+    "stage": 0,
+    "subtype": "Elemental"
+  }
+]

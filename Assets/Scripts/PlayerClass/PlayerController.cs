@@ -19,10 +19,6 @@ public class PlayerController : MonoBehaviour
     [SerializeField] private Animator animator;
     [SerializeField] private SpriteRenderer spriteRenderer;
 
-    // CombatSystem 참조 추가
-    [Header("전투 시스템")]
-    [SerializeField] private CombatSystem combatSystem; // Inspector에서 할당하거나 GetComponent로 찾기
-
     private Rigidbody2D rb;
     private Vector2 moveInput;
     
@@ -34,16 +30,20 @@ public class PlayerController : MonoBehaviour
     public static event PlayerDied OnPlayerDied;
 
     private bool isDead = false;
+    [SerializeField] private Player player;
 
     private void Awake()
     {
         rb = GetComponent<Rigidbody2D>();
+        player = GetComponent<Player>();
+        Debug.Log($"[PlayerController] Awake: rb={(rb != null)}, player={(player != null)}");
     }
 
     private void Start()
     {
         currentHealth = maxHealth;
         InvokeHealthChangedEvent();
+        Debug.Log($"[PlayerController] Start: currentHealth={currentHealth}, maxHealth={maxHealth}");
     }
 
     private void FixedUpdate()
@@ -64,21 +64,30 @@ public class PlayerController : MonoBehaviour
     private void Move()
     {
         rb.linearVelocity = moveInput * moveSpeed;
+        // 이동 입력 로그
+        if (moveInput != Vector2.zero)
+            Debug.Log($"[PlayerController] Move: moveInput={moveInput}, speed={moveSpeed}");
     }
 
     private void UpdateAnimation()
     {
-        // 이동 애니메이션을 bool 파라미터로 제어
         if (animator != null)
         { 
-            // 이동 중인지 확인 (속도가 0보다 큰지 체크, 작은 임계값 사용)
             bool isRunning = rb.linearVelocity.magnitude > 0.1f;
-            animator.SetBool("IsRunning", isRunning); // "IsRunning" bool 파라미터 설정
-
-            // 스프라이트 뒤집기 로직은 유지
-            if (rb.linearVelocity.x != 0)
+            animator.SetBool("IsRunning", isRunning);
+            Debug.Log($"[PlayerController] UpdateAnimation: isRunning={isRunning}");
+            // 좌우 이동에 따라 스프라이트 Flip
+            if (rb.linearVelocity.x != 0 && spriteRenderer != null)
             {
-                spriteRenderer.flipX = rb.linearVelocity.x < 0;
+                bool flip = rb.linearVelocity.x < 0;
+                spriteRenderer.flipX = flip;
+                Debug.Log($"[PlayerController] SpriteRenderer.flipX={flip}");
+
+                // WeaponSystem의 Mark도 반전
+                if (player != null && player.GetWeaponSystem() != null)
+                {
+                    player.GetWeaponSystem().SetWeaponMarkFlip(flip);
+                }
             }
         }
     }
@@ -86,51 +95,15 @@ public class PlayerController : MonoBehaviour
     public void OnMove(InputValue value)
     {
         moveInput = value.Get<Vector2>();
-    }
-
-    // Z 키 입력 (기존 Attack)
-    public void OnAttack1(InputValue value)
-    {
-        if (combatSystem != null && value.isPressed)
-        { 
-            combatSystem.PerformAttack1(); // CombatSystem의 공격 메서드 호출
-        }
-    }
-
-    // X 키 입력
-    public void OnAttack2(InputValue value)
-    {
-        if (combatSystem != null && value.isPressed)
-        {
-            combatSystem.PerformAttack2();
-        }
-    }
-
-    // C 키 입력
-    public void OnAttack3(InputValue value)
-    {
-        if (combatSystem != null && value.isPressed)
-        {
-            combatSystem.PerformAttack3();
-        }
-    }
-
-    // V 키 입력
-    public void OnAttack4(InputValue value)
-    {
-        if (combatSystem != null && value.isPressed)
-        {
-            combatSystem.PerformAttack4();
-        }
+        Debug.Log($"[PlayerController] OnMove: moveInput={moveInput}");
     }
 
     public void TakeDamage(float damage)
     {
         currentHealth -= damage;
         currentHealth = Mathf.Clamp(currentHealth, 0, maxHealth);
-        
+        Debug.Log($"[PlayerController] TakeDamage: damage={damage}, currentHealth={currentHealth}");
         InvokeHealthChangedEvent();
-        
         if (currentHealth <= 0)
         {
             Die();
@@ -141,12 +114,13 @@ public class PlayerController : MonoBehaviour
     {
         currentHealth += amount;
         currentHealth = Mathf.Clamp(currentHealth, 0, maxHealth);
-        
+        Debug.Log($"[PlayerController] Heal: amount={amount}, currentHealth={currentHealth}");
         InvokeHealthChangedEvent();
     }
 
     private void InvokeHealthChangedEvent()
     {
+        Debug.Log($"[PlayerController] InvokeHealthChangedEvent: currentHealth={currentHealth}, maxHealth={maxHealth}");
         OnHealthChanged?.Invoke(currentHealth, maxHealth);
     }
 
@@ -154,6 +128,7 @@ public class PlayerController : MonoBehaviour
     {
         if (isDead) return;
         isDead = true;
+        Debug.Log("[PlayerController] Die: 플레이어 사망");
         // Invoke death event
         OnPlayerDied?.Invoke();
         // Disable player controls

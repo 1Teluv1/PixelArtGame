@@ -1,0 +1,29 @@
+[
+    {
+      "stageId": 1,
+      "stageName": "Forest",
+      "duration": 60,
+      "enemyWaves": [
+        { "spawnTime": 0, "monsterId": 101, "count": 5 },
+        { "spawnTime": 5, "monsterId": 102, "count": 5 },
+        { "spawnTime": 10, "monsterId": 103, "count": 5 },
+        { "spawnTime": 15, "monsterId": 104, "count": 5 },
+        { "spawnTime": 20, "monsterId": 105, "count": 5 }
+      ],
+      "boss": { "spawnTime": 50, "monsterId": 201 },
+      "tileSet": "Tileset/Stage1.png"
+    },
+    {
+      "stageId": 2,
+      "stageName": "Desert",
+      "duration": 80,
+      "enemyWaves": [
+        { "spawnTime": 0, "monsterId": 101, "count": 6 },
+        { "spawnTime": 30, "monsterId": 102, "count": 4 },
+        { "spawnTime": 60, "monsterId": 103, "count": 3 },
+        { "spawnTime": 90, "monsterId": 104, "count": 2 }
+      ],
+      "boss": { "spawnTime": 70, "monsterId": 202 },
+      "tileSet": "Tileset/Stage2.png"
+    }
+  ]

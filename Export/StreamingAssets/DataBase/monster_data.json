@@ -1,0 +1,79 @@
+[
+  {
+    "monsterId": 101,
+    "name": "Goblin Warrior",
+    "texturePath": "Sprites/Monster/트랄랄레로 트랄랄라.png",
+    "moveSpeed": 2.0,
+    "maxHealth": 50,
+    "damage": 10,
+    "scale": 0.5,
+    "attackRate": 1.0,
+    "experienceValue": 10
+  },
+  {
+    "monsterId": 102,
+    "name": "Orc Archer",
+    "texturePath": "Sprites/Monster/퉁퉁사후르.png",
+    "moveSpeed": 2.0,
+    "maxHealth": 80,
+    "damage": 15,
+    "scale": 0.5,
+    "attackRate": 0.8,
+    "experienceValue": 20
+  },
+  {
+    "monsterId": 103,
+    "name": "Orc Archer",
+    "texturePath": "Sprites/Monster/불의무희.png",
+    "moveSpeed": 2.0,
+    "maxHealth": 80,
+    "damage": 15,
+    "scale": 0.8,
+    "attackRate": 0.8,
+    "experienceValue": 20
+  },
+  {
+    "monsterId": 104,
+    "name": "Orc Archer",
+    "texturePath": "Sprites/Monster/흑마법사.png",
+    "moveSpeed": 2.0,
+    "maxHealth": 80,
+    "damage": 15,
+    "scale": 0.5,
+    "attackRate": 0.8,
+    "experienceValue": 20
+  },
+  {
+    "monsterId": 105,
+    "name": "Orc Archer",
+    "texturePath": "Sprites/Monster/불의스켈레톤.png",
+    "moveSpeed": 2.0,
+    "maxHealth": 80,
+    "damage": 15,
+    "scale": 0.5,
+    "attackRate": 0.8,
+    "experienceValue": 20
+  },
+  {
+    "monsterId": 106,
+    "name": "Orc Archer",
+    "texturePath": "Sprites/Monster/TEST5-3.png",
+    "moveSpeed": 2.0,
+    "maxHealth": 80,
+    "damage": 15,
+    "scale": 0.8,
+    "attackRate": 0.8,
+    "experienceValue": 20
+  },
+  {
+    "monsterId": 107,
+    "name": "Orc Archer",
+    "texturePath": "Sprites/Monster/스켈레톤 변환.png",
+    "moveSpeed": 2.0,
+    "maxHealth": 80,
+    "damage": 15,
+    "scale": 0.5,
+    "attackRate": 0.8,
+    "experienceValue": 20
+  }
+]
