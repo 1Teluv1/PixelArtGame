@@ -10736,7 +10736,7 @@ PrefabInstance:
       objectReference: {fileID: 1938004660}
     - target: {fileID: 9109483517854665589, guid: 173d1318e6932d44bac6f9c6f9e0e57c, type: 3}
       propertyPath: defaultWeaponId
-      value: 201
+      value: 205
       objectReference: {fileID: 0}
     - target: {fileID: 9109483517854665589, guid: 173d1318e6932d44bac6f9c6f9e0e57c, type: 3}
       propertyPath: meleeWeaponPrefab
@@ -10753,7 +10753,7 @@ PrefabInstance:
     - target: {fileID: 9109483517854665589, guid: 173d1318e6932d44bac6f9c6f9e0e57c, type: 3}
       propertyPath: defaultWeaponPrefab
       value: 
-      objectReference: {fileID: 7710684167767392270, guid: 908da54973e4b744fbafbcdfc77f580a, type: 3}
+      objectReference: {fileID: 3123121716123864452, guid: cd95f757d2fa83b43bc8ae8e37d1e9c5, type: 3}
     - target: {fileID: 9109483517854665589, guid: 173d1318e6932d44bac6f9c6f9e0e57c, type: 3}
       propertyPath: defaultMeleeWeaponId
       value: 202

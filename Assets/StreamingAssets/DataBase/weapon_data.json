@@ -40,5 +40,33 @@
     "imagePath": "Sprites/Weapon/구체.png",
     "stage": 0,
     "subtype": "Elemental"
+  },
+  {
+    "weaponId": 204,
+    "name": "Blade",
+    "damage": 10,
+    "scale_x": 4,
+    "scale_y": 1.5,
+    "cooldown": 1.0,
+    "description": "Blade",
+    "type": "Melee",
+    "texturePath": "Sprites/Weapon/참격2.png",
+    "imagePath": "Sprites/Weapon/참격2.png",
+    "stage": 0,
+    "subtype": "Elemental"
+  },
+  {
+    "weaponId": 205,
+    "name": "PoisonArrow",
+    "damage": 10,
+    "scale_x": 2,
+    "scale_y": 1,
+    "cooldown": 1.0,
+    "description": "PoisonArrow",
+    "type": "Ranged",
+    "texturePath": "Sprites/Weapon/독화살.png",
+    "imagePath": "Sprites/Weapon/독화살.png",
+    "stage": 0,
+    "subtype": "Elemental"
   }
 ]

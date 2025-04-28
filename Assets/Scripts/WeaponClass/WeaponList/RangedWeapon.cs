@@ -58,6 +58,14 @@ public class RangedWeapon : MonoBehaviour, IWeaponBehaviour
                 move.damage = damage;
             }
 
+            // 발사체의 Scale을 무기 데이터에 맞게 조정
+            if (weaponData != null)
+            {
+                float scaleValueX = (weaponData.scale_x > 0f) ? weaponData.scale_x : 1f;
+                float scaleValueY = (weaponData.scale_y > 0f) ? weaponData.scale_y : 1f;
+                proj.transform.localScale = new Vector3(scaleValueX, scaleValueY, 1f);
+            }
+
             Destroy(proj, 2f);
         }
     }
