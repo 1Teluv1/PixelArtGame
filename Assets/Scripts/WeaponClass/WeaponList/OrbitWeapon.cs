@@ -71,4 +71,23 @@ public class OrbitWeapon : MonoBehaviour, IWeaponBehaviour
             lastAttackTime = Time.time;
         }
     }
+
+    private SpriteRenderer GetSpriteRenderer()
+    {
+        return GetComponent<SpriteRenderer>();
+    }
+
+    public void ShowSprite()
+    {
+        var sr = GetSpriteRenderer();
+        if (sr != null)
+            sr.enabled = true;
+    }
+
+    public void HideSprite()
+    {
+        var sr = GetSpriteRenderer();
+        if (sr != null)
+            sr.enabled = false;
+    }
 }

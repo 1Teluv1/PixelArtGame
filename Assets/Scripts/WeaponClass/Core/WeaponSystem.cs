@@ -92,19 +92,18 @@ public class WeaponSystem : MonoBehaviour
     
     private void FireActiveWeapons()
     {
-        // 각 무기 슬롯을 순회하며 쿨타임이 0 이하인 무기만 공격
         foreach (var slot in weaponSlots)
         {
             if (slot.equippedWeaponInstance == null) continue;
             var behaviour = slot.equippedWeaponInstance.GetComponent<IWeaponBehaviour>();
             if (behaviour == null) continue;
-            // 쿨타임 관리: weaponCooldowns[slot.weaponKey] 사용
+
             if (!weaponCooldowns.ContainsKey(slot.weaponKey))
                 weaponCooldowns[slot.weaponKey] = 0f;
+
             if (weaponCooldowns[slot.weaponKey] <= 0f)
             {
                 behaviour.Attack();
-                // 쿨타임은 WeaponData 또는 슬롯 데이터에서 가져와야 함 (예시: slot.weaponData.cooldown)
                 float cooldown = (slot.weaponData != null) ? slot.weaponData.cooldown : 1f;
                 weaponCooldowns[slot.weaponKey] = cooldown;
             }

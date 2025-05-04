@@ -111,4 +111,9 @@ public class RangedWeapon : MonoBehaviour, IWeaponBehaviour
             Attack();
         }
     }
+
+    private SpriteRenderer GetSpriteRenderer()
+    {
+        return GetComponent<SpriteRenderer>();
+    }
 }

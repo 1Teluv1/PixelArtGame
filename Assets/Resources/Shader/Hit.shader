@@ -9,6 +9,7 @@ Shader "Custom/SafeHitWaveShader_NoOutline"
         _WaveFrequency ("Wave Frequency", Float) = 30
         _HitColor ("Hit Color", Color) = (1,0.5,0.5,1)
         _HitBlend ("Hit Blend", Range(0,1)) = 0
+        _EffectEnabled ("Effect Enabled", Float) = 1
     }
     SubShader
     {
@@ -44,6 +45,7 @@ Shader "Custom/SafeHitWaveShader_NoOutline"
             float _WaveFrequency;
             float4 _HitColor;
             float _HitBlend;
+            float _EffectEnabled;
 
             v2f vert(appdata_t v)
             {
@@ -55,11 +57,17 @@ Shader "Custom/SafeHitWaveShader_NoOutline"
 
             fixed4 frag(v2f i) : SV_Target
             {
-                fixed4 c = tex2D(_MainTex, i.uv) * _Color;
-                // 알파가 충분히 높을 때만 효과 적용 (경계 픽셀 보호)
+                if (_EffectEnabled < 0.5)
+                {
+                    fixed4 c = tex2D(_MainTex, i.uv) * _Color;
+                    return c;
+                }
+                float wave = sin(i.uv.x * _WaveFrequency + _Time.y * _WaveSpeed) * _WaveStrength;
+                float2 uv = i.uv;
+                uv.y += wave;
+                fixed4 c = tex2D(_MainTex, uv) * _Color;
                 if (c.a < 0.5)
                     return c;
-                // 파동 효과 (x축 변형 대신 색상만 살짝 변화)
                 c.rgb = lerp(c.rgb, _HitColor.rgb, _HitBlend);
                 return c;
             }

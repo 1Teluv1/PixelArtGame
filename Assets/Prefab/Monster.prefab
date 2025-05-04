@@ -12,6 +12,7 @@ GameObject:
   - component: {fileID: 9089231675341606882}
   - component: {fileID: 845485483223220684}
   - component: {fileID: 1484055471048066947}
+  - component: {fileID: 5378909573513823626}
   m_Layer: 6
   m_Name: Monster
   m_TagString: Monster
@@ -129,6 +130,23 @@ BoxCollider2D:
   m_AutoTiling: 0
   m_Size: {x: 4, y: 4}
   m_EdgeRadius: 0
+--- !u!114 &5378909573513823626
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1289401226080437032}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d39fb80ac6c8d4d4abe54485845ae56c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  spriteRenderer: {fileID: 3023714146065541423}
+  hitMaterial: {fileID: 2100000, guid: d5088438b9677974e92abbb12d02714c, type: 2}
+  effectDuration: 0.1
+  maxStrength: 1
+  isEffectEnabled: 0
 --- !u!1 &6103102369554355562
 GameObject:
   m_ObjectHideFlags: 0

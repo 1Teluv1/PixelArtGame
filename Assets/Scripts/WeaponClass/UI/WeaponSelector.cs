@@ -122,7 +122,11 @@ public class WeaponSelector : MonoBehaviour
         {
             Debug.Log($"{weapon.name} 장착 실패 또는 이미 장착됨.");
         }
-        gameObject.SetActive(false);
+        var animator = GetComponent<WeaponSelectUIAnimator>();
+        if (animator != null)
+            animator.HideAndDisable();
+        else
+            gameObject.SetActive(false);
     }
 
     private void OnEnable()

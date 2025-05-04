@@ -526,6 +526,7 @@ GameObject:
   - component: {fileID: 1924193140385449909}
   - component: {fileID: 5621771681534599606}
   - component: {fileID: 7462910793574151095}
+  - component: {fileID: 1309240625583474243}
   m_Layer: 5
   m_Name: WeaponSelect
   m_TagString: Untagged
@@ -613,6 +614,22 @@ MonoBehaviour:
   - {fileID: 3541725197161649720}
   - {fileID: 4295791926690700741}
   candidateCount: 3
+--- !u!114 &1309240625583474243
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4009833593478005053}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0e9834cf78f4fd94fa15a90ef9d56ec9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  duration: 0.5
+  showFrom: {x: 0, y: 800}
+  showTo: {x: 0, y: 0}
+  hideTo: {x: 0, y: -800}
 --- !u!1 &6266411330398263362
 GameObject:
   m_ObjectHideFlags: 0

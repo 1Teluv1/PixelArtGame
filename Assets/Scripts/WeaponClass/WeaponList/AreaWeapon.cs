@@ -24,4 +24,8 @@ public class AreaWeapon : MonoBehaviour, IWeaponBehaviour
         }
     }
     
+    private SpriteRenderer GetSpriteRenderer()
+    {
+        return GetComponent<SpriteRenderer>();
+    }
 }

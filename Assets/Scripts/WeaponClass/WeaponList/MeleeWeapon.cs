@@ -8,6 +8,9 @@ public class MeleeWeapon : MonoBehaviour, IWeaponBehaviour
     public float cooldown = 1f;
 
     private float lastAttackTime = -999f;
+    private bool isOnCooldown = false;
+    private float repeatAttackTimer = 0f;
+    private float repeatAttackInterval = 0.1f; // 0.1초 간격
 
     public void Attack()
     {
@@ -40,6 +43,7 @@ public class MeleeWeapon : MonoBehaviour, IWeaponBehaviour
                 if (monster != null)
                 {
                     monster.TakeDamage(damage);
+                    Debug.Log("[Attack] 몬스터 공격 진행중");
                 }
             }
         }
@@ -65,10 +69,12 @@ public class MeleeWeapon : MonoBehaviour, IWeaponBehaviour
 
     private void Update()
     {
-        // 쿨타임이 경과하면 자동으로 Attack() 실행
-        if (Time.time >= lastAttackTime + cooldown)
-        {
-            Attack();
-        }
+        Attack();
+        Debug.Log("[Attack] 공격 진행중");
+    }
+
+    private SpriteRenderer GetSpriteRenderer()
+    {
+        return GetComponent<SpriteRenderer>();
     }
 }

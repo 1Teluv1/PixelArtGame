@@ -55,7 +55,14 @@ public class WeaponSpriteFrameAnimator : MonoBehaviour
     
     void Update()
     {
-        if (!isPlaying) return;
+        if (!isPlaying)
+        {
+            if (spriteRenderer != null && spriteRenderer.enabled)
+            {
+                spriteRenderer.sprite = null;
+            }
+            return;
+        }
 
         if (frames == null || frames.Count == 0)
         {
