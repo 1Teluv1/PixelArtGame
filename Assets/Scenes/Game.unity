@@ -1176,6 +1176,10 @@ PrefabInstance:
       propertyPath: playerCamera
       value: 
       objectReference: {fileID: 1721263263}
+    - target: {fileID: 432988863016997483, guid: 173d1318e6932d44bac6f9c6f9e0e57c, type: 3}
+      propertyPath: cameraEffects
+      value: 
+      objectReference: {fileID: 1721263265}
     - target: {fileID: 435620317083377774, guid: 173d1318e6932d44bac6f9c6f9e0e57c, type: 3}
       propertyPath: m_AnchorMax.x
       value: 0
@@ -2207,6 +2211,9 @@ GameObject:
   - component: {fileID: 1721263263}
   - component: {fileID: 1721263262}
   - component: {fileID: 1721263261}
+  - component: {fileID: 1721263265}
+  - component: {fileID: 1721263267}
+  - component: {fileID: 1721263266}
   m_Layer: 0
   m_Name: Camera
   m_TagString: Untagged
@@ -2332,6 +2339,59 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1721263265
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1721263260}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 45318ae85ba4ddf439a0dfa3b5864a5c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  mainCamera: {fileID: 1721263263}
+  shakeIntensity: 0.5
+  shakeDecay: 0.95
+  shakeDuration: 0.5
+  slowdownFactor: 0.3
+  slowdownDuration: 1
+  slowdownRecoverySpeed: 2
+  maxBlurAmount: 10
+  blurFadeSpeed: 2
+  blurMaterial: {fileID: 0}
+  maxMosaicAmount: 64
+  mosaicFadeSpeed: 2
+  mosaicMaterial: {fileID: 0}
+--- !u!114 &1721263266
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1721263260}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 17aabee4912b66a43bfea73852c3ce47, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  mosaicShader: {fileID: 4800000, guid: d3b0099e08149bb4184d9c2b274e807d, type: 3}
+  mosaicMaterial: {fileID: 0}
+--- !u!114 &1721263267
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1721263260}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0171777c59c5ca343b59597d36bd3fc5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  blurShader: {fileID: 4800000, guid: 6545b98616f41144d9a506bbf0110fa9, type: 3}
+  blurMaterial: {fileID: 0}
 --- !u!1 &1843722463
 GameObject:
   m_ObjectHideFlags: 0
