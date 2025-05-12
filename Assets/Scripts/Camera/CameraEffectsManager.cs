@@ -5,11 +5,15 @@ public class CameraEffectsManager : MonoBehaviour
 {
     [Header("카메라 참조")]
     [SerializeField] private Camera mainCamera;
+    [SerializeField] private Transform playerTransform; // 플레이어 Transform 참조
 
     [Header("카메라 흔들림 설정")]
     [SerializeField] private float shakeIntensity = 0.1f;
     [SerializeField] private float shakeDecay = 0.95f;
     [SerializeField] private float shakeDuration = 0.5f;
+    [SerializeField, Range(5, 30)] private int shakeVibrato = 10; // 초당 진동 횟수
+    [SerializeField, Range(0f, 90f)] private float shakeRandomness = 70f; // 랜덤성 (0: 원형, 90: 완전 랜덤)
+    [SerializeField] private bool shakeUseRandomSeed = true; // 매번 다른 패턴으로 흔들림
 
     [Header("카메라 슬로우 설정")]
     [SerializeField] private float slowdownFactor = 0.3f;
@@ -38,9 +42,15 @@ public class CameraEffectsManager : MonoBehaviour
         get { return blurMaterial; }
         set { blurMaterial = value; }
     }
+    
+    public Transform PlayerTransform
+    {
+        get { return playerTransform; }
+        set { playerTransform = value; }
+    }
 
     // 내부 변수
-    private Vector3 originalPosition;
+    private Vector3 originalOffset; // 카메라와 플레이어 사이의 기본 오프셋
     private float currentShakeIntensity = 0f;
     private float currentMosaicAmount = 0f;
     private float currentBlurAmount = 0f;
@@ -48,42 +58,177 @@ public class CameraEffectsManager : MonoBehaviour
     private bool isMosaicActive = false;
     private bool isBlurActive = false;
     private bool isShaking = false;
-
+    
+    // 흔들림 관련 변수
+    private float shakeElapsedTime = 0f;
+    private Vector3[] shakeNoiseOffset; // 노이즈 오프셋 배열
+    private int shakeSeed;
+    private Coroutine shakeCoroutine;
+    
     private void Awake()
     {
         if (mainCamera == null)
             mainCamera = GetComponent<Camera>();
-            
-        originalPosition = transform.localPosition;
+        
+        InitShakeNoiseOffsets();
+    }
+    
+    private void Start()
+    {
+        // 자동으로 플레이어 찾기
+        if (playerTransform == null)
+        {
+            PlayerController playerController = FindAnyObjectByType<PlayerController>();
+            if (playerController != null)
+            {
+                playerTransform = playerController.transform;
+                Debug.Log("[CameraEffectsManager] 플레이어 자동 할당 완료");
+            }
+            else
+            {
+                Debug.LogWarning("[CameraEffectsManager] 플레이어를 찾을 수 없습니다. 수동으로 할당하세요.");
+            }
+        }
+        
+        // 카메라와 플레이어 사이의 초기 오프셋 계산
+        CalculateOriginalOffset();
+    }
+    
+    private void CalculateOriginalOffset()
+    {
+        if (playerTransform != null)
+        {
+            originalOffset = transform.position - playerTransform.position;
+            originalOffset.z = transform.position.z; // z 값 유지 (2D 게임용)
+            Debug.Log($"[CameraEffectsManager] 카메라-플레이어 기본 오프셋: {originalOffset}");
+        }
+    }
+    
+    private void LateUpdate()
+    {
+        if (playerTransform != null && !isShaking)
+        {
+            // 카메라 효과가 없을 때는 플레이어를 따라다님
+            UpdateCameraPositionToPlayer();
+        }
+    }
+    
+    private void UpdateCameraPositionToPlayer()
+    {
+        Vector3 targetPosition = playerTransform.position + originalOffset;
+        transform.position = targetPosition;
+    }
+    
+    private void InitShakeNoiseOffsets()
+    {
+        // 여러 방향으로의 랜덤 움직임을 표현하기 위한 노이즈 옵셋 생성
+        shakeNoiseOffset = new Vector3[3];
+        RefreshShakeNoiseOffsets();
+    }
+    
+    private void RefreshShakeNoiseOffsets()
+    {
+        // 매번 다른 흔들림 패턴 생성
+        shakeSeed = shakeUseRandomSeed ? Random.Range(0, 1000) : 0;
+        
+        for (int i = 0; i < shakeNoiseOffset.Length; i++)
+        {
+            // 각 축마다 다른 속도로 움직이는 노이즈 오프셋
+            shakeNoiseOffset[i] = new Vector3(
+                Random.Range(0f, 100f) + shakeSeed,
+                Random.Range(0f, 100f) + shakeSeed,
+                Random.Range(0f, 100f) + shakeSeed
+            );
+        }
     }
 
     #region 카메라 흔들림
     public void ShakeCamera(float intensity = -1, float duration = -1)
     {
-        StopCoroutine(nameof(ShakeCameraCoroutine));
+        if (shakeCoroutine != null)
+            StopCoroutine(shakeCoroutine);
+        
         currentShakeIntensity = intensity > 0 ? intensity : shakeIntensity;
         float shakeDur = duration > 0 ? duration : shakeDuration;
+        
+        // 새로운 흔들림 패턴 생성
+        if (shakeUseRandomSeed)
+            RefreshShakeNoiseOffsets();
+            
         isShaking = true;
-        StartCoroutine(ShakeCameraCoroutine(shakeDur));
+        shakeElapsedTime = 0f;
+        shakeCoroutine = StartCoroutine(ImprovedShakeCameraCoroutine(shakeDur));
     }
 
-    private IEnumerator ShakeCameraCoroutine(float duration)
+    private IEnumerator ImprovedShakeCameraCoroutine(float duration)
     {
         float elapsed = 0f;
         
         while (elapsed < duration && currentShakeIntensity > 0.01f)
         {
-            Vector3 shakeOffset = Random.insideUnitSphere * currentShakeIntensity;
-            transform.localPosition = originalPosition + shakeOffset;
+            // 경과 시간에 따른 진동 계산
+            float strength = currentShakeIntensity;
+            float vibration = elapsed * shakeVibrato;
             
+            // 여러 노이즈 값을 조합하여 자연스러운 흔들림 생성
+            Vector3 shakeOffset = CalculateShakeOffset(strength, vibration);
+            
+            // 플레이어 위치를 기준으로 카메라 위치 업데이트
+            if (playerTransform != null)
+            {
+                Vector3 targetPosition = playerTransform.position + originalOffset + shakeOffset;
+                transform.position = targetPosition;
+            }
+            else
+            {
+                // 플레이어가 없는 경우 기존 방식 사용
+                transform.position = transform.position + shakeOffset;
+            }
+            
+            // 감쇠 적용
             currentShakeIntensity *= shakeDecay;
             elapsed += Time.deltaTime;
             yield return null;
         }
         
-        transform.localPosition = originalPosition;
+        // 효과 종료 후 카메라를 플레이어 위치로 복원
+        if (playerTransform != null)
+        {
+            UpdateCameraPositionToPlayer();
+        }
+        
         currentShakeIntensity = 0f;
         isShaking = false;
+        shakeCoroutine = null;
+    }
+    
+    private Vector3 CalculateShakeOffset(float strength, float vibration)
+    {
+        // 기본 진동값
+        float sin = Mathf.Sin(vibration);
+        float cos = Mathf.Cos(vibration);
+        
+        // 원형 흔들림 기준
+        Vector3 circularShake = new Vector3(cos, sin, 0) * strength;
+        
+        // 랜덤 흔들림 생성
+        Vector3 randomShake = new Vector3(
+            PerlinNoise(shakeNoiseOffset[0].x, vibration),
+            PerlinNoise(shakeNoiseOffset[0].y, vibration),
+            0
+        ) * strength;
+        
+        // 흔들림 방향의 랜덤성 (0: 원형, 1: 완전 랜덤)
+        float randomFactor = shakeRandomness / 90f;
+        
+        // 원형과 랜덤 흔들림을 혼합
+        return Vector3.Lerp(circularShake, randomShake, randomFactor);
+    }
+    
+    // 퍼린 노이즈를 -1~1 범위로 변환
+    private float PerlinNoise(float x, float y)
+    {
+        return (Mathf.PerlinNoise(x + y * 0.1f, y) * 2f) - 1f;
     }
     
     public bool IsShaking()

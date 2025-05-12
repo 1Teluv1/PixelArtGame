@@ -120,8 +120,9 @@ public class PlayerController : MonoBehaviour
         // 데미지 받을 때 카메라 효과 적용
         if (cameraEffects != null && damage > 0)
         {
-            float intensity = Mathf.Clamp01(damage / maxHealth) * 0.3f;
+            float intensity = Mathf.Clamp01(damage / maxHealth) * 2.0f;
             cameraEffects.ShakeCamera(intensity, 0.5f);
+            Debug.Log($"[CameraEffectsManager] ShakeCamera: intensity={intensity}, duration=0.5f");
         }
         
         InvokeHealthChangedEvent();

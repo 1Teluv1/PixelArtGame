@@ -2352,9 +2352,13 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   mainCamera: {fileID: 1721263263}
+  playerTransform: {fileID: 494561162}
   shakeIntensity: 0.5
   shakeDecay: 0.95
   shakeDuration: 0.5
+  shakeVibrato: 10
+  shakeRandomness: 70
+  shakeUseRandomSeed: 1
   slowdownFactor: 0.3
   slowdownDuration: 1
   slowdownRecoverySpeed: 2
