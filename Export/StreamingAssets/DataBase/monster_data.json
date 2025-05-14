@@ -75,5 +75,16 @@
     "scale": 0.5,
     "attackRate": 0.8,
     "experienceValue": 20
+  },
+  {
+    "monsterId": 108,
+    "name": "Orc Archer",
+    "texturePath": "Sprites/Monster/블랙 특수부대.png",
+    "moveSpeed": 2.0,
+    "maxHealth": 80,
+    "damage": 15,
+    "scale": 0.5,
+    "attackRate": 0.8,
+    "experienceValue": 20
   }
 ]

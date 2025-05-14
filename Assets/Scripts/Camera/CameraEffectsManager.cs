@@ -22,12 +22,10 @@ public class CameraEffectsManager : MonoBehaviour
 
     [Header("카메라 블러 설정")]
     [SerializeField] private float maxBlurAmount = 10f;
-    [SerializeField] private float blurFadeSpeed = 2f;
     [SerializeField] private Material blurMaterial; // 대체 블러 머티리얼
 
     [Header("카메라 모자이크 설정")]
     [SerializeField] private float maxMosaicAmount = 64f;
-    [SerializeField] private float mosaicFadeSpeed = 2f;
     [SerializeField] private Material mosaicMaterial;
 
     // 프로퍼티 추가
@@ -54,13 +52,11 @@ public class CameraEffectsManager : MonoBehaviour
     private float currentShakeIntensity = 0f;
     private float currentMosaicAmount = 0f;
     private float currentBlurAmount = 0f;
-    private float timeScale = 1f;
     private bool isMosaicActive = false;
     private bool isBlurActive = false;
     private bool isShaking = false;
     
     // 흔들림 관련 변수
-    private float shakeElapsedTime = 0f;
     private Vector3[] shakeNoiseOffset; // 노이즈 오프셋 배열
     private int shakeSeed;
     private Coroutine shakeCoroutine;
@@ -156,7 +152,6 @@ public class CameraEffectsManager : MonoBehaviour
             RefreshShakeNoiseOffsets();
             
         isShaking = true;
-        shakeElapsedTime = 0f;
         shakeCoroutine = StartCoroutine(ImprovedShakeCameraCoroutine(shakeDur));
     }
 

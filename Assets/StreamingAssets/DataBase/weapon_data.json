@@ -2,9 +2,9 @@
   {
     "weaponId": 201,
     "name": "Sword",
-    "damage": 5,
-    "scale_x": 5.5,
-    "scale_y": 3.5,
+    "damage": 15,
+    "scale_x": 6,
+    "scale_y": 4,
     "cooldown": 0.01,
     "description": "Sword",
     "type": "Melee",
@@ -16,7 +16,7 @@
   {
     "weaponId": 202,
     "name": "Fireball",
-    "damage": 5,
+    "damage": 50,
     "scale_x": 0.5,
     "scale_y": 0.5,
     "cooldown": 1.0,
@@ -30,7 +30,7 @@
   {
     "weaponId": 203,
     "name": "LightBall",
-    "damage": 1,
+    "damage": 10,
     "scale_x": 3,
     "scale_y": 3,
     "cooldown": 1.0,
@@ -44,7 +44,7 @@
   {
     "weaponId": 204,
     "name": "Blade",
-    "damage": 1,
+    "damage": 10,
     "scale_x": 5,
     "scale_y": 3,
     "cooldown": 0.1,

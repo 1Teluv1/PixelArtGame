@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.InputSystem;
+using GameEffects;
 
 public class PlayerController : MonoBehaviour
 {
@@ -20,7 +21,10 @@ public class PlayerController : MonoBehaviour
     [Header("애니메이션 설정")]
     [SerializeField] private Animator animator;
     [SerializeField] private SpriteRenderer spriteRenderer;
-
+    [Header("이펙트 프리팹")]
+    [SerializeField] private GameObject playerBloodEffectPrefab;
+    [Header("게임 오버")]
+    [SerializeField] private GameObject gameOverPanel;
     private Rigidbody2D rb;
     private Vector2 moveInput;
     
@@ -32,6 +36,8 @@ public class PlayerController : MonoBehaviour
     public static event PlayerDied OnPlayerDied;
 
     private bool isDead = false;
+    private bool isGameOverHandling = false;
+    private GameObject gameOverPanelInstance = null;
     [SerializeField] private Player player;
 
     private void Awake()
@@ -121,10 +127,20 @@ public class PlayerController : MonoBehaviour
         if (cameraEffects != null && damage > 0)
         {
             float intensity = Mathf.Clamp01(damage / maxHealth) * 2.0f;
-            cameraEffects.ShakeCamera(intensity, 0.5f);
-            Debug.Log($"[CameraEffectsManager] ShakeCamera: intensity={intensity}, duration=0.5f");
+            cameraEffects.ApplyBlur(intensity, 2.0f);
+            Debug.Log($"[PlayerController] ApplyBlur: intensity={intensity}, duration=2.0f");
         }
         
+        if (playerBloodEffectPrefab != null)
+        {
+            GameObject bloodEffect = Instantiate(playerBloodEffectPrefab, transform.position, Quaternion.identity);
+            BloodEffect bloodEffectComponent = bloodEffect.GetComponent<BloodEffect>();
+            if (bloodEffectComponent != null)
+            {
+                bloodEffectComponent.Initialize(BloodSource.Player);
+            }
+        }
+
         InvokeHealthChangedEvent();
         if (currentHealth <= 0)
         {
@@ -165,10 +181,30 @@ public class PlayerController : MonoBehaviour
         // Disable player controls
         rb.linearVelocity = Vector2.zero;
         enabled = false;
-        // Play death animation if available
-        if (animator != null)
+        // GameOver 패널 인스턴스화 및 비활성화 코루틴 시작
+        StartCoroutine(HandleGameOverAndDeactivate());
+    }
+
+    private IEnumerator HandleGameOverAndDeactivate()
+    {
+        if (isGameOverHandling) yield break;
+        isGameOverHandling = true;
+        if (gameOverPanel != null && gameOverPanelInstance == null)
         {
-            animator.SetTrigger("Die"); // 트리거 방식으로 변경
+            var canvasObj = GameObject.FindGameObjectWithTag("MainCanvas");
+            if (canvasObj == null)
+            {
+                Debug.LogWarning("Canvas가 없어 GameOver 패널을 생성하지 않습니다.");
+            }
+            else
+            {
+                gameOverPanelInstance = Instantiate(gameOverPanel, Vector3.zero, Quaternion.identity);
+                gameOverPanelInstance.transform.SetParent(canvasObj.transform, false);
+                Debug.Log($"[PlayerController] Die: gameOverPanelInstance={gameOverPanelInstance}, parent={gameOverPanelInstance.transform.parent}, activeSelf={gameOverPanelInstance.activeSelf}");
+                // GameOver 패널이 비활성화될 때 플레이어도 비활성화
+                GameOverPanelDeactivator deactivator = gameOverPanelInstance.AddComponent<GameOverPanelDeactivator>();
+                deactivator.onPanelDeactivated = () => { gameObject.SetActive(false); };
+            }
         }
     }
     
@@ -194,5 +230,16 @@ public class PlayerController : MonoBehaviour
                 playerCamera.transform.position = playerPos;
             }
         }
+    }
+}
+
+// GameOverPanelDeactivator: GameOver 패널이 비활성화될 때 콜백을 실행하는 유틸리티 컴포넌트
+public class GameOverPanelDeactivator : MonoBehaviour
+{
+    public System.Action onPanelDeactivated;
+    private void OnDisable()
+    {
+        if (onPanelDeactivated != null)
+            onPanelDeactivated.Invoke();
     }
 } 

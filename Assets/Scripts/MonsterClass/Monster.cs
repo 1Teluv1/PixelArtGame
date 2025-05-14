@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using MonsterState;
+using GameEffects;
 
 public class Monster : MonoBehaviour
 {
@@ -18,7 +19,9 @@ public class Monster : MonoBehaviour
 
     [Header("스프라이트 및 이펙트")]
     [SerializeField] private SpriteRenderer spriteRenderer;
-    [SerializeField] private Material hitMaterial;
+
+    [Header("이펙트 프리팹")]
+    [SerializeField] private GameObject monsterBloodEffectPrefab; // 몬스터 피격 시 사용할 블러드 이펙트 프리팹
 
     private Transform playerTransform;
     private float attackCooldown = 0f;
@@ -26,12 +29,6 @@ public class Monster : MonoBehaviour
 
     // 상태 관리
     private IMonsterState currentState;
-
-    private float lastHitEffectTime = -999f;
-    private float hitEffectCooldown = 0.2f; // 피격 이펙트 최소 간격(초)
-
-    private MonsterHitEffectController hitEffectController;
-
     // MonsterData로부터 능력치 자동 할당
     public void InitFromData(MonsterData data)
     {
@@ -52,7 +49,7 @@ public class Monster : MonoBehaviour
 
     private void Awake()
     {
-        hitEffectController = GetComponent<MonsterHitEffectController>();
+        // hitEffectController = GetComponent<MonsterHitEffectController>(); // Awake 초기화 제거
     }
 
     private void Start()
@@ -126,9 +123,29 @@ public class Monster : MonoBehaviour
         if (isDead) return;
         currentHealth -= damage;
         Debug.Log($"[Monster] {gameObject.name} 피격! 받은 데미지: {damage}, 남은 체력: {currentHealth}");
-
+        CameraEffectsManager cameraEffectsManager = FindAnyObjectByType<CameraEffectsManager>();
+        if (cameraEffectsManager != null)
+        {
+            cameraEffectsManager.ShakeCamera(0.1f, 0.1f);
+            Debug.Log("[Monster] 카메라 흔들림 시작");
+        }
+        else
+        {
+            Debug.Log("[Monster] 카메라 흔들림 찾을 수 없음");
+        }
         // 피격 이펙트 분리
-        hitEffectController?.PlayHitEffect();
+        // hitEffectController?.PlayHitEffect(); // 피격 이펙트 호출 제거
+
+        // 블러드 이펙트 생성
+        if (monsterBloodEffectPrefab != null)
+        {
+            GameObject bloodEffect = Instantiate(monsterBloodEffectPrefab, transform.position, Quaternion.identity);
+            BloodEffect bloodEffectComponent = bloodEffect.GetComponent<BloodEffect>();
+            if (bloodEffectComponent != null)
+            {
+                bloodEffectComponent.Initialize(BloodSource.Monster);
+            }
+        }
 
         if (currentHealth <= 0)
         {

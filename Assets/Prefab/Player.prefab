@@ -595,10 +595,13 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   moveSpeed: 5
   playerCamera: {fileID: 0}
+  cameraEffects: {fileID: 0}
   maxHealth: 100
   currentHealth: 0
   animator: {fileID: 1017449111810435630}
   spriteRenderer: {fileID: 2173324572656519352}
+  playerBloodEffectPrefab: {fileID: 8746423322460895545, guid: 631d794f2a379f845a820a0b717ab26d, type: 3}
+  gameOverPanel: {fileID: 0}
   player: {fileID: 9109483517854665589}
 --- !u!50 &1048751012820664506
 Rigidbody2D:

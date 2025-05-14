@@ -32,13 +32,17 @@ namespace PixelArtGame.Assets.Scripts.Stage.Core
         public event Action OnStageFail;
         public event Action OnStageClear;
 
-        public InfiniteTilemapController infiniteTilemapController; // Inspector에서 할당
+        private InfiniteTilemapController infiniteTilemapController; // Inspector에서 할당
 
         [SerializeField] private GameObject weaponSelectUIPrefab;
         private GameObject weaponSelectUIInstance;
 
         private void Start()
         {
+            // 씬이 바뀔 때마다 새로 할당
+            if (infiniteTilemapController == null)
+                infiniteTilemapController = FindAnyObjectByType<InfiniteTilemapController>();
+
             // 씬 시작 시 자동으로 스테이지 시작 및 몬스터 스폰
             StartStage(currentStageIndex);
         }
@@ -69,6 +73,10 @@ namespace PixelArtGame.Assets.Scripts.Stage.Core
                     string tileSetPath = stage["tileSet"] as string;
                     infiniteTilemapController.LoadTileSpritesFromPath(tileSetPath);
                 }
+            }
+            else
+            {
+                FindAnyObjectByType<InfiniteTilemapController>().LoadTileSpritesFromPath("Assets/Resources/TileSet/TileSet.png");
             }
         }
 
@@ -125,14 +133,6 @@ namespace PixelArtGame.Assets.Scripts.Stage.Core
 
         private void Awake()
         {
-            // 싱글톤 패턴 구현
-            if (Instance != null && Instance != this)
-            {
-                Destroy(gameObject);
-                return;
-            }
-            Instance = this;
-            DontDestroyOnLoad(gameObject);
 
             // JSON 데이터 로드 (코루틴)
             StartCoroutine(LoadStageDataFromJsonCoroutine((stageList) => {
@@ -261,8 +261,19 @@ namespace PixelArtGame.Assets.Scripts.Stage.Core
 
         private Transform FindCanvasTransform()
         {
-            var canvas = FindAnyObjectByType<Canvas>();
-            return canvas != null ? canvas.transform : null;
+            var canvasObj = GameObject.FindGameObjectWithTag("MainCanvas");
+            if (canvasObj == null)
+            {
+                Debug.LogWarning("[StageManager] 'MainCanvas' 태그를 가진 Canvas를 찾을 수 없습니다.");
+                return null;
+            }
+            var canvas = canvasObj.GetComponent<Canvas>();
+            if (canvas == null)
+            {
+                Debug.LogWarning("[StageManager] 'MainCanvas' 태그가 있지만 Canvas 컴포넌트가 없습니다.");
+                return null;
+            }
+            return canvas.transform;
         }
     }
 }

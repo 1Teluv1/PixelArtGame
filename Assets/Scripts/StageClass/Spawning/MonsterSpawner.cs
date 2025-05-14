@@ -16,6 +16,7 @@ public class MonsterSpawner : MonoBehaviour
             return null;
         }
         if (playerCamera == null) {
+            playerCamera = FindAnyObjectByType<Camera>();
             Debug.LogWarning("[MonsterSpawner] playerCamera가 할당되지 않음");
             return null;
         }

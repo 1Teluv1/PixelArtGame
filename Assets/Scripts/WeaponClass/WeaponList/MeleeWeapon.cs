@@ -8,9 +8,6 @@ public class MeleeWeapon : MonoBehaviour, IWeaponBehaviour
     public float cooldown = 1f;
 
     private float lastAttackTime = -999f;
-    private bool isOnCooldown = false;
-    private float repeatAttackTimer = 0f;
-    private float repeatAttackInterval = 0.1f; // 0.1초 간격
 
     public void Attack()
     {
@@ -70,7 +67,6 @@ public class MeleeWeapon : MonoBehaviour, IWeaponBehaviour
     private void Update()
     {
         Attack();
-        Debug.Log("[Attack] 공격 진행중");
     }
 
     private SpriteRenderer GetSpriteRenderer()
